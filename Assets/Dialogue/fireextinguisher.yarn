@@ -1,0 +1,11 @@
+title: fireextinguisher
+---
+<<if has_item("fireextinguisher")>>
+Felix: It's a fire extinguisher.
+Fire Extinguisher: I'm a fire extinguisher.
+Felix: I need the opposite of this. <<if $room = 7>>
+<<else>>
+Felix: This may come in handy later.
+Fire Extinguisher: If you say so.
+<<endif>>
+===
