@@ -19,7 +19,7 @@ public class DialogueManager : MonoBehaviour {
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(transform.parent.gameObject);
     }
 
     public void StartDialogue(string node) {
