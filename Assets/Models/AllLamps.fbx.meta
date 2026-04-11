@@ -3,7 +3,22 @@ guid: 40207bff9576ef0908c3e38bc9afa82d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Holder
+    second: {fileID: 2100000, guid: 6510a86bb5b6e3f63995d5091551e7c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalFrame
+    second: {fileID: 2100000, guid: 6510a86bb5b6e3f63995d5091551e7c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tube
+    second: {fileID: 2100000, guid: ceeff82797f1896bd8040b7e7f46ad25, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

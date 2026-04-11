@@ -3,7 +3,42 @@ guid: a4edb9c037a2123dab763009f1d96c6d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brass
+    second: {fileID: 2100000, guid: c73c0f17c60a3b0e8af053f16cccff1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: f38b96b2131b22a39a1eb46f9128ff4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: 8a1ed2afd1b9753b9beb7bd41e109f5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frame
+    second: {fileID: 2100000, guid: f38b96b2131b22a39a1eb46f9128ff4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls
+    second: {fileID: 2100000, guid: bc05544070d0ef663b04c5bc49e2a3a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window
+    second: {fileID: 2100000, guid: 2c1645a7e4e7731d4a9b6a9ca7e447e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodDoor
+    second: {fileID: 2100000, guid: f38b96b2131b22a39a1eb46f9128ff4f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
