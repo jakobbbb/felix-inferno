@@ -1,6 +1,5 @@
 ﻿title: dinotattos
 ---
-<<give_item "dinotattoos" >>
 <<if has_item("dinotattoos")>>
     Felix: Rawr means "I love you in dinosaur". #line:08033bc 
     Dinosaur Tattoos: Rawr xD. #line:061614c 
