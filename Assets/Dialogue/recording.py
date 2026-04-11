@@ -45,8 +45,15 @@ class YarnRecorder:
         print(line.text)
         self.write_state_html(False, line.text)
 
+        output_dir = "../Audio/"
+        line_id_underscore = line.line_id.replace(":", "_")
+        take = 0
+        for f in os.listdir(output_dir):
+            if line_id_underscore in f:
+                take += 1
+
         input("Ready to record?  Press enter")
-        filename = "../Audio/" + line.line_id.replace(":", "_") + ".wav"
+        filename = output_dir + line_id_underscore + f"_{take:02d}" + ".wav"
         self.rec = subprocess.Popen(
             ["arecord", "-vv", "--format=cd", filename]
         )
