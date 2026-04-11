@@ -4,7 +4,7 @@ title: wall
    Felix: I love that game.
 <<elseif $room == 2>>
     Felix: That's actually pretty deep.
-    <<declare $gaywizard == true>>
+    <<declare $gaywizard = true>>
 <<elseif $room == 3>>
     
 <<elseif $room == 4>>
@@ -16,7 +16,7 @@ title: wall
     Felix: There's something missing here.
     <<endif>>
 <<elseif $room == 5>>
-    
+    Felix: I think there's a lesson in there somewhere.
 <<elseif $room == 6>>
     
 <<else>>
