@@ -1,5 +1,10 @@
 ﻿title: couch
 ---
+<<if $room == 6>>
+Felix: I should just lie down until I am one with the couch.
+God: Don't act like a sloth.
+<<else>>
 Felix: It's a comfy couch. #line:0b20851 
 Couch: I am very comfy. #line:00bca47 
+<<endif>>
 ===

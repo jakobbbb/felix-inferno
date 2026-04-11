@@ -2,6 +2,9 @@
 ---
 <<if $room== 7>>
     Felix: Somehow I am not hungry anymore. #line:0d1393e 
+<<elseif $room == 6>>
+Felix: I could eat 100 pizzas right now.
+God: You know that gluttony is a sin, right?
 <<else>>
     Felix: Damn, I'm hungry right now. #line:0d8619a 
 <<endif>>
