@@ -1,9 +1,9 @@
-title: bigscreen
+﻿title: bigscreen
 ---
 <<if $room ==6>>
-Felix: I would kill for a screen that big.
-God: You seem green with envy.
+Felix: I would kill for a screen that big. #line:0919831 
+God: You seem green with envy. #line:066fab1 
 <<else>>
-Felix: Interesting.
+Felix: Interesting. #line:0d76c14 
 <<endif>>
 ===

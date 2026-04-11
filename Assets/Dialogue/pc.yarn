@@ -1,15 +1,15 @@
-title: pc
+﻿title: pc
 ---
 <<if $room == 6>>
-   Felix: Hey God, look at the incredible game I made.
-   Felix: It only took 48 hours.
-   God: That's nothing to be proud of.
-   God: Creating good things takes at least 6 days.
+   Felix: Hey God, look at the incredible game I made. #line:066a3eb 
+   Felix: It only took 48 hours. #line:07ec74e 
+   God: That's nothing to be proud of. #line:0e7710e 
+   God: Creating good things takes at least 6 days. #line:06c41bd 
 <<elseif $room == 2>>
-    Felix: It's already being used.
+    Felix: It's already being used. #line:0b2e4ed 
 <<else>>
-    Felix: I guess I could play a bit.
-    ~several hours later~
-    Felix: Well that didn't help at all.
+    Felix: I guess I could play a bit. #line:0d7b01e 
+    ~several hours later~ #line:07432a9 
+    Felix: Well that didn't help at all. #line:074c096 
 <<endif>>
 ===
