@@ -62,7 +62,9 @@ class YarnRecorder:
                 take += 1
                 take_str = f"_{take:02d}"
 
-        input("Ready to record?  Press enter")
+        if input("Ready to record?  Press enter") != "":
+            self.write_state_html(False, "")
+            return
         filename = output_dir + line_id_part + take_str + ".wav"
         self.rec = subprocess.Popen(
             ["arecord", "-vv", "--format=cd", filename]
