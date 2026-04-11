@@ -1,0 +1,18 @@
+title: microphone
+---
+<<if $room == 1>>
+    Felix: Okaaaay, let's go.
+<<elseif $room == 2>>
+    Felix: Okaaaay, let's go.
+<<elseif $room == 3>>
+   Felix: Okaaaay, let's go.
+<<elseif $room == 4>>
+   Felix: Okaaaay, let's go.
+<<elseif $room == 5>>
+    Felix: Okaaaay, let's go.
+<<elseif $room == 6>>
+    Felix: Okaaaay, let's go.
+<<else>>
+    Felix: Okaaaay, let's go.
+<<endif>>
+===

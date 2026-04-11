@@ -18,7 +18,7 @@
 <<elseif $room == 5>>
     Felix: I think there's a lesson in there somewhere. #line:0be314c 
 <<elseif $room == 6>>
-    
+    Felix: Not my favourite anime.
 <<else>>
     
 <<endif>>
