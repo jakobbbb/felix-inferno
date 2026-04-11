@@ -1,8 +1,12 @@
 ﻿title: person1
 ---
+<<if has_item("shirt")>>
+Felix: I have what I wanted.  
+<<else>>
 Felix: You like the vertically rotating fish? #line:0c9b891 
 Person 1: I love it. #line:0b1aa3f 
-Person 1: But I would give my last shirt for it to rotate horizontally. #line:0a6f5ae 
+Person 1: But I would give my last shirt for something to rotate horizontally. #line:0a6f5ae 
 Felix: Oh really? #line:0bcbd46 
 Felix: *rotates horizontally* #line:0702a25 
+<<endif>>
 ===
