@@ -1,0 +1,16 @@
+title: harold
+---
+<<if has_item("rope")>>
+Harold: *hides the pain*
+<<elseif has_item("cloak") && has_item("pants") && has_item("shirt") && has_item("blanket") && has_item("underwear") && has_item("blanket")>>
+Felix: Are you winning, son?
+Harold: No.
+Felix: ...
+Harold: ...
+Felix: I need more clothes to make a rope to get out of here.
+Harold: You can have my rope if you want to.
+Felix: Oh, thank you.
+<<else>>
+Felix: He seems busy.
+<<endif>>
+===
