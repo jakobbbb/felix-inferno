@@ -12,14 +12,20 @@ public class InventoryManager : MonoBehaviour {
     private static Inventory s_Inventory = new Inventory();
     public static InventoryManager Instance = null;
 
+    void Awake() {
+        if (Instance != null && Instance != this) {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+
     public void Start()
     {
         AllItems = (Resources.LoadAll<Item>("Items") as Item[]).ToList();
         Debug.Log($"Got {AllItems.Count} items!");
-    }
-
-    void Awake() {
-        Instance = this;
     }
 
     [YarnFunction("has_item")]
