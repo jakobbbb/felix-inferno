@@ -3,7 +3,22 @@ guid: 1ef4da89af62440aaaf64b96eb9e042f
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: feet
+    second: {fileID: 2100000, guid: 7c2fff8f07248e429a92bfd11cd78582, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tableLegs
+    second: {fileID: 2100000, guid: 7c2fff8f07248e429a92bfd11cd78582, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tableboard
+    second: {fileID: 2100000, guid: f38b96b2131b22a39a1eb46f9128ff4f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
