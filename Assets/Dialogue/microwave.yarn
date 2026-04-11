@@ -1,0 +1,12 @@
+title: microwave
+---
+<<if has_item("frozenhamster")>>
+Felix: Hmm...
+<<else>>
+Felix: It's a microwave.
+<<once>>
+Felix: Where did that come from?
+<<endonce>>
+Microwave: I am a microwave.
+<<endif>>
+===
