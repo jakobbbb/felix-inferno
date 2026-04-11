@@ -1,0 +1,13 @@
+title: person7
+---
+<<if has_item("blanket")>>
+Person 7: We should go on a date someday.
+<<elseif $tattosapplied == true>>
+Felix: Look at my sick tattoos!
+Person 7: Damn, I really like them.
+Person 7: Here, take this blanket as a token of my appreciation.
+<<else>>
+Felix: You look comfy.
+Person 7: I am.
+<<endif>>
+===
