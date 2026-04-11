@@ -1,25 +1,24 @@
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class RayUtils {
 
     // Cast ray from mouse cursor onto anything
-    public static Vector3? CastMouseRayToWorld() {
+    public static RaycastHit? CastMouseRayToWorld(LayerMask mask) {
         var mouse_pos = Mouse.current.position.ReadValue();
         var ray = Camera.main.ScreenPointToRay(mouse_pos);
         bool is_hit = Physics.Raycast(
                 ray,
                 out RaycastHit hit,
                 9999f,
-                ~0  // everything
+                mask
         );
 
         if (!is_hit) {
             return null;
         }
 
-        return hit.point;
+        return hit;
     }
 
     // Cast ray downwards onto the walkable plane
