@@ -1,12 +1,12 @@
-title: microwave
+﻿title: microwave
 ---
 <<if has_item("frozenhamster")>>
-Felix: Hmm...
+Felix: Hmm... #line:0c808b2 
 <<else>>
-Felix: It's a microwave.
+Felix: It's a microwave. #line:0f0edbf 
 <<once>>
-Felix: Where did that come from?
+Felix: Where did that come from? #line:0244469 
 <<endonce>>
-Microwave: I am a microwave.
+Microwave: I am a microwave. #line:0cfd036 
 <<endif>>
 ===

@@ -1,18 +1,18 @@
-title: fridge
+﻿title: fridge
 ---
 <<if $room < 3 >>
-Felix: It doesn't even have a freezer.
-=> Fridge: You don't even have clean socks at home.
-=> Fridge: You don't even have a grip on your life.
-=> Fridge: You don't even have a good relationship with your parents.
-Felix: Ok, wow.
+Felix: It doesn't even have a freezer. #line:0d426ce 
+=> Fridge: You don't even have clean socks at home. #line:0c4a98a 
+=> Fridge: You don't even have a grip on your life. #line:0468204 
+=> Fridge: You don't even have a good relationship with your parents. #line:084e266 
+Felix: Ok, wow. #line:0b44702 
 <<once>>
-Felix: ...
-Felix: You fight like a dairy farmer.
-Fridge: How appropriate. You fight like a cow.
+Felix: ... #line:0d9a6b6 
+Felix: You fight like a dairy farmer. #line:01391a7 
+Fridge: How appropriate. You fight like a cow. #line:07e8d73 
 <<endonce>>
 <<elseif $room > 3>>
-Felix: I am not touching that thing again.
-Fridge: That's what she said.
+Felix: I am not touching that thing again. #line:0518938 
+Fridge: That's what she said. #line:07609c0 
 <<endif>>
 ===

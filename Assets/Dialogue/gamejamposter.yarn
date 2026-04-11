@@ -1,11 +1,11 @@
-title: gamejamposter
+﻿title: gamejamposter
 ---
 <<if has_item("gamejamposter")>>
-Felix: It's a Game Jam Poster.
-Game Jam Poster: I'm a Game Jam Poster.
-Felix: I could put it up somewhere. <<if $room == 4>>
+Felix: It's a Game Jam Poster. #line:004b511 
+Game Jam Poster: I'm a Game Jam Poster. #line:0d5a7fc 
+Felix: I could put it up somewhere. <<if $room == 4>> #line:0e3caef 
 <<else>>
-Felix: What a nice poster!
-Game Jam Poster: Thank you!
+Felix: What a nice poster! #line:077b520 
+Game Jam Poster: Thank you! #line:0273e16 
 <<endif>>
 ===

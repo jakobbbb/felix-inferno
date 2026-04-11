@@ -1,10 +1,10 @@
-title: plants
+﻿title: plants
 ---
 <<if $room == 1>>
-Felix: These could use some water.
-Plants: We are thirsty bitches.
+Felix: These could use some water. #line:0f8389f 
+Plants: We are thirsty bitches. #line:0597133 
 <<else>>
-Felix: You look very hydrated.
-Plants: We are wet af.
+Felix: You look very hydrated. #line:048e80e 
+Plants: We are wet af. #line:083cc7c 
 <<endif>>
 ===

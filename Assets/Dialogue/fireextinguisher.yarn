@@ -1,11 +1,11 @@
-title: fireextinguisher
+﻿title: fireextinguisher
 ---
 <<if has_item("fireextinguisher")>>
-Felix: It's a fire extinguisher.
-Fire Extinguisher: I'm a fire extinguisher.
-Felix: I need the opposite of this. <<if $room == 7>>
+Felix: It's a fire extinguisher. #line:0db87f2 
+Fire Extinguisher: I'm a fire extinguisher. #line:0492486 
+Felix: I need the opposite of this. <<if $room == 7>> #line:0c0d5d9 
 <<else>>
-Felix: This may come in handy later.
-Fire Extinguisher: If you say so.
+Felix: This may come in handy later. #line:065c412 
+Fire Extinguisher: If you say so. #line:061b6e2 
 <<endif>>
 ===
