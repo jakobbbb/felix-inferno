@@ -42,10 +42,10 @@ public class Felix : MonoBehaviour {
 
     public void OnDrawGizmos() {
         Gizmos.color = Color.purple;
-        Gizmos.DrawSphere(transform.position, 1.2f);
+        Gizmos.DrawSphere(transform.position, 0.2f);
 
         Gizmos.color = Color.orange;
-        Gizmos.DrawSphere(m_Agent.destination, 0.8f);
+        Gizmos.DrawSphere(m_Agent.destination, 0.2f);
     }
 
 }

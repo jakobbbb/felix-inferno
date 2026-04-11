@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5437468094705721123}
   - component: {fileID: 5644908874195256140}
+  - component: {fileID: 3649990736571496436}
   m_Layer: 0
   m_Name: Felix_Character_Animator
   m_TagString: Untagged
@@ -55,6 +56,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3649990736571496436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626564441284824220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b87b6bf69821a26cb1839f8536bd1f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FelixAnimator
+  m_Animator: {fileID: 5644908874195256140}
 --- !u!1 &7955645023923595094
 GameObject:
   m_ObjectHideFlags: 0
