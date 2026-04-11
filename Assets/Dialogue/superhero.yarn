@@ -1,12 +1,12 @@
-title: superhero
+﻿title: superhero
 ---
 <<if has_item("underwear")>>
-Felix: Weird.
+Felix: Weird. #line:00e983e 
 <<else>>
-Superhero: What a beautiful day!
-Felix: Hi, I need clothes to make a rope, could you maybe give me...
-Superhero: A part of my costume? Of course, good citizen.
-Felix: Um, thanks?
-Superhero: Always happy to help!
+Superhero: What a beautiful day! #line:004b28d 
+Felix: Hi, I need clothes to make a rope, could you maybe give me... #line:0d86d83 
+Superhero: A part of my costume? Of course, good citizen. #line:051a51c 
+Felix: Um, thanks? #line:07ddf7f 
+Superhero: Always happy to help! #line:040d337 
 <<endif>>
 ===

@@ -1,15 +1,15 @@
-title: wizard
+﻿title: wizard
 ---
 <<if has_item("cloak")>>
-Wizard: *pondering the orb but gay*
+Wizard: *pondering the orb but gay* #line:002762b 
 <<elseif $gaywizard == true>>
-Wizard: *pondering the orb*
-Felix: Do your best. Be a gay wizard.
-Wizard: Wise words indeed.
-Wizard: Take my cloak. You need it more than I do.
+Wizard: *pondering the orb* #line:0cec5b2 
+Felix: Do your best. Be a gay wizard. #line:04171a4 
+Wizard: Wise words indeed. #line:0f967f0 
+Wizard: Take my cloak. You need it more than I do. #line:063625a 
 <<else>>
-Wizard: *pondering the orb*
-Felix: They are pondering the orb.
-Felix: I should only interrupt if I have something really profound to say.
+Wizard: *pondering the orb* #line:00ae8de 
+Felix: They are pondering the orb. #line:00d174b 
+Felix: I should only interrupt if I have something really profound to say. #line:066c8ce 
 <<endif>>
 ===

@@ -1,22 +1,22 @@
-title: wall
+﻿title: wall
 ---
 <<if $room == 1>>
-   Felix: I love that game.
+   Felix: I love that game. #line:00d610a 
 <<elseif $room == 2>>
-    Felix: That's actually pretty deep.
+    Felix: That's actually pretty deep. #line:0da231d 
     <<declare $gaywizard = true>>
 <<elseif $room == 3>>
     
 <<elseif $room == 4>>
     <<if $musical == true>>
-    Felix: Let's get out of here.
+    Felix: Let's get out of here. #line:04967e8 
    <<elseif $prison == true>>
-   Felix: I have to distract the guards so I can escape through the tunnel behind the poster.
+   Felix: I have to distract the guards so I can escape through the tunnel behind the poster. #line:07669a6 
    <<else>>
-    Felix: There's something missing here.
+    Felix: There's something missing here. #line:024b896 
     <<endif>>
 <<elseif $room == 5>>
-    Felix: I think there's a lesson in there somewhere.
+    Felix: I think there's a lesson in there somewhere. #line:0be314c 
 <<elseif $room == 6>>
     
 <<else>>

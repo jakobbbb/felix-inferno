@@ -1,7 +1,7 @@
 ﻿title: person1
 ---
 <<if has_item("shirt")>>
-Felix: I have what I wanted.  
+Felix: I have what I wanted.   #line:0617d5a 
 <<else>>
 Felix: You like the vertically rotating fish? #line:0c9b891 
 Person 1: I love it. #line:0b1aa3f 
