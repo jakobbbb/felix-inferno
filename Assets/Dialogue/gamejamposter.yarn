@@ -3,7 +3,7 @@ title: gamejamposter
 <<if has_item("gamejamposter")>>
 Felix: It's a Game Jam Poster.
 Game Jam Poster: I'm a Game Jam Poster.
-Felix: I could put it up somewhere. <<if $room = 4>>
+Felix: I could put it up somewhere. <<if $room == 4>>
 <<else>>
 Felix: What a nice poster!
 Game Jam Poster: Thank you!
