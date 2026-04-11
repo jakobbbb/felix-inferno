@@ -1,6 +1,6 @@
 title: trashcan
 ---
-<<if $room = 1>>
+<<if $room == 1>>
 <<once>>>
 Felix: There's something in there.
 <<endonce>>
