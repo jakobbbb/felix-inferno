@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: feet
-    second: {fileID: 2100000, guid: 7c2fff8f07248e429a92bfd11cd78582, type: 2}
+    second: {fileID: 2100000, guid: ef20be5e0b7e7a3e0b75a522d2ed59c7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
