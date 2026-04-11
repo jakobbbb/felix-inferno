@@ -1,6 +1,6 @@
 title: pizzaflyer
 ---
-<<if $room= 7>>
+<<if $room== 7>>
     Felix: Somehow I am not hungry anymore.
 <<else>>
     Felix: Damn, I'm hungry right now.
