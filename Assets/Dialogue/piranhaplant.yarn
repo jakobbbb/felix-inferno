@@ -1,0 +1,14 @@
+title: piranhaplant
+---
+<<if has_item("tofu")>>
+Felix: Can I offer you a tasty snack?
+Tofu: I am a tasty snack.
+Piranha Plant: Thank you so much.
+Piranha Plant: You may take me now.
+<<elseif has_item("piranhaplant")>>
+Piranha Plant: *eating noises*
+<<else>>
+Felix: Can I offer you a finger?
+Piranha Plant: So sorry, but I am vegan.
+<<endif>>>>
+===
