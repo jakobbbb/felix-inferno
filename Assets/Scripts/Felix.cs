@@ -7,11 +7,12 @@ public class Felix : MonoBehaviour {
     [SerializeField]
     private FelixInputActions m_Actions;
 
-
     [Header("Felix walks around")]
 
     [SerializeField]
     private NavMeshAgent m_Agent;
+
+    private Interactable m_TargetInteractable;
 
     public void Start() {
         Debug.Log($"Hello, I am {name}!");
@@ -20,13 +21,19 @@ public class Felix : MonoBehaviour {
     public void Update() {
         if (m_Actions.Click.action.WasPerformedThisFrame()) {
             SetTarget();
+            m_TargetInteractable = DialogueManager.Instance.CastMouseRay();
+            Debug.Log($"{name} wants the {m_TargetInteractable}!");
+        }
+        if (m_TargetInteractable != null && NavUtils.AreWeThereYet(m_Agent)) {
+            m_TargetInteractable.Trigger();
+            m_TargetInteractable = null;
         }
     }
 
     public void SetTarget() {
-        var p = RayUtils.CastMouseRayToWorld();
+        var p = RayUtils.CastMouseRayToWorld(~0);  // mask: everything
         if (p != null) {
-            var target = RayUtils.CastRayDown(p.Value + Vector3.up);
+            var target = RayUtils.CastRayDown(p.Value.point + Vector3.up);
             if (target != null) {
                 m_Agent.destination = target.Value;
             }
