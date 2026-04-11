@@ -1,0 +1,12 @@
+title: superhero
+---
+<<if has_item("underwear")>>
+Felix: Weird.
+<<else>>
+Superhero: What a beautiful day!
+Felix: Hi, I need clothes to make a rope, could you maybe give me...
+Superhero: A part of my costume? Of course, good citizen.
+Felix: Um, thanks?
+Superhero: Always happy to help!
+<<endif>>
+===
