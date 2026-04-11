@@ -36,9 +36,17 @@ class YarnRecorder:
         print("Nodes:")
         print("\n".join(nodes))
 
-    def record_lines(self, node: str) -> None:
+    def print_speakers(self, node: str) -> None:
+        speakers = set()
         for line in self.lines:
-            if line.node == node:
+            if line.node == node and ":" in line.text:
+                speakers.add(line.text.split(":")[0])
+        print("Speakers:")
+        print("\n".join(sorted(list(speakers))))
+
+    def record_lines(self, node: str, speaker: str) -> None:
+        for line in self.lines:
+            if line.node == node and line.text.startswith(speaker):
                 self.record_line(line)
 
     def record_line(self, line: LineInfo) -> None:
@@ -79,7 +87,9 @@ class YarnRecorder:
 
 if __name__ == "__main__":
     y = YarnRecorder(sys.argv[1])
-    if len(sys.argv) == 3:
-        y.record_lines(sys.argv[2])
+    if len(sys.argv) == 4:
+        y.record_lines(sys.argv[2], sys.argv[3])
+    elif len(sys.argv) == 3:
+        y.print_speakers(sys.argv[2])
     else:
         y.print_nodes()
