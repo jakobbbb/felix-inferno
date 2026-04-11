@@ -1,9 +1,9 @@
-title: dinotattos
+﻿title: dinotattos
 ---
 <<if has_item("dinotattoos")>>
-    Felix: Rawr means "I love you in dinosaur".
-    Dinosaur Tattoos: Rawr xD.
+    Felix: Rawr means "I love you in dinosaur". #line:08033bc 
+    Dinosaur Tattoos: Rawr xD. #line:061614c 
 <<else>>
-    Felix: You're coming with me.
+    Felix: You're coming with me. #line:0185181 
 <<endif>>
 ===
