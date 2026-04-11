@@ -1,0 +1,11 @@
+title: person3
+---
+<<if has_item("pants")>>
+Person 3: I feel very much refreshed.
+Plants: Same, bitch.
+<<else>>
+Felix: Ah, those plants really needed watering.
+Plants: *moisturized plant noises*
+Person 3: Yes, but now I am thirsty.
+<<endif>>
+===
