@@ -1,44 +1,44 @@
-title: aquarium
+﻿title: aquarium
 ---
 <<if $room == 1>>
     <<once>>
-    Felix: Aur naur, Cleo.
-    Mermaid: Aur naur.
+    Felix: Aur naur, Cleo. #line:0955498 
+    Mermaid: Aur naur. #line:048bc84 
     <<endonce>>
-    Felix: What a nice aquarium.
-    Aquarium: What a nice person.
+    Felix: What a nice aquarium. #line:06e8464 
+    Aquarium: What a nice person. #line:07f55fe 
 <<elseif $room == 2>>
-    Felix: Not again.
-    Felix: Vertically rotating fish.
-    Vertically rotating fish: *rotates vertically*
+    Felix: Not again. #line:0c8ae62 
+    Felix: Vertically rotating fish. #line:0da5af8 
+    Vertically rotating fish: *rotates vertically* #line:09a2e9f 
 <<elseif $room == 3>>
     <<once>>
-    Felix: Greetings, definitely blue herring.
-    Definitely Blue Herring: Greetings, Felix.
-    Definitely Blue Herring: I know how you can get out of this room.
-    Felix: I'm listening.
-    Definitely Blue Herring: The Hamster.
-    Felix: ...
-    Definitely Blue Herring: ...
-    Felix: You wanna add anything to this?
+    Felix: Greetings, definitely blue herring. #line:0da9370 
+    Definitely Blue Herring: Greetings, Felix. #line:08a861f 
+    Definitely Blue Herring: I know how you can get out of this room. #line:0414734 
+    Felix: I'm listening. #line:0e70a3a 
+    Definitely Blue Herring: The Hamster. #line:06cc1ad 
+    Felix: ... #line:0acbe57 
+    Definitely Blue Herring: ... #line:050bbf9 
+    Felix: You wanna add anything to this? #line:0f48024 
     <<endonce>>
-    Definitely Blue Herring: I said what I said.
+    Definitely Blue Herring: I said what I said. #line:03bd089 
 <<elseif $room == 4>>
-    Felix: Oh Junge.
-    Tueftenbacchus: Ich empfehle mich.
+    Felix: Oh Junge. #line:0af0292 
+    Tueftenbacchus: Ich empfehle mich. #line:04d7df1 
 <<elseif $room == 5>>
-    Felix: I do not trust that fish.
-    Wels: And you shouldn't.
+    Felix: I do not trust that fish. #line:03626f7 
+    Wels: And you shouldn't. #line:0bfa040 
 <<elseif $room == 6>>
     <<once>>
-    Felix: *honk*
-    Goose: *honk*
+    Felix: *honk* #line:0ff1821 
+    Goose: *honk* #line:0bbade1 
     <<endonce>>
-    Felix: ...
+    Felix: ... #line:0352add 
     <<once>>
-    Felix: That goose murdered my parents.
+    Felix: That goose murdered my parents. #line:0eff6f0 
     <<endonce>>
 <<else>>
-    Felix: I can't get past this thing.
+    Felix: I can't get past this thing. #line:02dccc5 
 <<endif>>
 ===

@@ -1,10 +1,10 @@
-title: vacuum
+﻿title: vacuum
 ---
 <<if $hamsterescape == true>>
-Felix: I think I have an idea...
+Felix: I think I have an idea... #line:002e7a0 
 <<else>>
-Felix: It's a vacuum cleaner.
-Vacuum: I suck
-Felix: Yes, yes you do.
+Felix: It's a vacuum cleaner. #line:0eef1bc 
+Vacuum: I suck #line:0f980c7 
+Felix: Yes, yes you do. #line:0278b51 
 <<endif>>
 ===

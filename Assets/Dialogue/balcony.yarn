@@ -1,18 +1,18 @@
-title: balcony
+﻿title: balcony
 ---
 <<if $room == 1>>
-Felix: That would be too easy.
+Felix: That would be too easy. #line:052a4a1 
 <<elseif $room == 2>>
-Felix: If only I could make a rope out of something...
+Felix: If only I could make a rope out of something... #line:030c172 
 <<elseif $room == 3>>
-Felix: That didn't work last time.
+Felix: That didn't work last time. #line:0d04856 
 <<elseif $room == 4>>
-Felix: This place is a fucking prison.
+Felix: This place is a fucking prison. #line:04655c9 
 <<elseif $room == 5>>
-Felix: I don't want to turn my back on this fish.
+Felix: I don't want to turn my back on this fish. #line:085d10e 
 <<elseif $room == 6>>
-Felix: That's a trauma I don't want to revisite.
+Felix: That's a trauma I don't want to revisite. #line:06b9f38 
 <<else>>
-Felix: I can't get past this thing.
+Felix: I can't get past this thing. #line:0033f4a 
 <<endif>>
 ===

@@ -1,0 +1,11 @@
+﻿title: person5
+---
+<<if has_item("jacket")>>
+=> Person 5: It's as big as her forearm?? #line:0ca8515 
+=> Person 5: They are doing what where? And who is watching?? #line:0530ad1 
+=> Person 5: My god, the tension... it's too hot, i am melting. #line:02eb24e 
+<<else>>
+Felix: You look bored. #line:0270da8 
+Person 5: I am. #line:0078afb 
+<<endif>>
+===
