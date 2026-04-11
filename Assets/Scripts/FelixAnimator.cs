@@ -36,7 +36,7 @@ public class FelixAnimator : MonoBehaviour {
 
     public void Update() {
         var dir = (transform.position - m_PrevPos) / Time.deltaTime;
-        var ppos = Camera.main.WorldToScreenPoint(transform.position);
+        var ppos = Camera.main.WorldToScreenPoint(transform.position + Vector3.up);
         var ppos_delta = ppos - m_PrevPosScreenSpace;
         var cam_pos = Camera.main.transform.position;
         var dist_cam_now = (cam_pos - transform.position).magnitude;
@@ -45,7 +45,7 @@ public class FelixAnimator : MonoBehaviour {
 
         Directions d = Directions.Neutral;
         bool front = true;
-        if (Mathf.Abs(ppos_delta.x) > 0.1312f) {
+        if (Mathf.Abs(ppos_delta.x) > 0.001f) {
             if (ppos_delta.x < 0) {
                 d = Directions.Left;
             } else {
