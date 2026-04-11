@@ -3,6 +3,7 @@
 <<if $room == 1>>
 <<once>>> #line:03a78cc 
 Felix: There's something in there. #line:06dc961 
+<<give_item "tofu">>
 <<endonce>>
 Felix: There's nothing in there. <<if has_item("tofu")>> #line:017c243 
 Felix: There's nothing in there. <<if has_item("key")>> #line:018cb55 
