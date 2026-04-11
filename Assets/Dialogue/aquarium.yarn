@@ -1,0 +1,44 @@
+title: aquarium
+---
+<<if $room= 1>>
+    <<once>>
+    Felix: Aur naur, Cleo.
+    Mermaid: Aur naur.
+    <<endonce>>
+    Felix: What a nice aquarium.
+    Aquarium: What a nice person.
+<<elseif $room = 2>>
+    Felix: Not again.
+    Felix: Vertically rotating fish.
+    Vertically rotating fish: *rotates vertically*
+<<elseif $room = 3>>
+    <<once>>
+    Felix: Greetings, definitely blue herring.
+    Definitely Blue Herring: Greetings, Felix.
+    Definitely Blue Herring: I know how you can get out of this room.
+    Felix: I'm listening.
+    Definitely Blue Herring: The Hamster.
+    Felix: ...
+    Definitely Blue Herring: ...
+    Felix: You wanna add anything to this?
+    <<endonce>>
+    Definitely Blue Herring: I said what I said.
+<<elseif $room = 4>>
+    Felix: Oh Junge.
+    Tueftenbacchus: Ich empfehle mich.
+<<elseif $room = 5>>
+    Felix: I do not trust that fish.
+    Wels: And you shouldn't.
+<<elseif $room = 6>>
+    <<once>>
+    Felix: *honk*
+    Goose: *honk*
+    <<endonce>>
+    Felix: ...
+    <<once>>
+    Felix: That goose murdered my parents.
+    <<endonce>>
+<<else>>
+    Felix: I can't get past this thing.
+<<endif>>
+===
