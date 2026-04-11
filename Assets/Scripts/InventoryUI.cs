@@ -38,8 +38,8 @@ public class InventoryUI : MonoBehaviour {
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        if (itemContainer != null)
-            itemContainer.gameObject.SetActive(false);
+        if (inventoryCanvas != null)
+            inventoryCanvas.SetActive(false);
     }
 
     private void Update() {
