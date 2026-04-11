@@ -1,0 +1,9 @@
+title: dinotattos
+---
+<<if has_item("dinotattoos")>>
+    Felix: Rawr means "I love you in dinosaur".
+    Dinosaur Tattoos: Rawr xD.
+<<else>>
+    Felix: You're coming with me.
+<<endif>>
+===

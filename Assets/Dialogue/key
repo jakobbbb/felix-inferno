@@ -1,8 +1,7 @@
 title: key
 ---
 <<if has_item("key")>>
-    Felix: It's a key.
-    Key: I'm a key.
-<<else>>
-    Felix: Oh a key.
+Felix: It's a key.
+Key: I'm a key.
+<<endif>>
 ===
