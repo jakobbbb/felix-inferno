@@ -1,6 +1,15 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Data", menuName = "Felix' Inferno Item", order = 1)]
+namespace BugGame.Inventory {
+
+[CreateAssetMenu(fileName = "Item", menuName = "Inventory Item", order = 0)]
 public class Item : ScriptableObject {
-    public Sprite sprite;
+    public string displayName;
+    public Sprite icon = null;
+
+    public int GetId() {
+        return name.GetHashCode();
+    }
 }
+
+}  // BugGame.Inventory
