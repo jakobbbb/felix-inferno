@@ -35,6 +35,8 @@ public class InventoryManager : MonoBehaviour {
 
     [YarnCommand("give_item")]
     public static void GiveItem(string itemname) {
+        Debug.Log($"give_item {itemname}");
+
         Item item = null;
 
         foreach (var i in Instance.AllItems) {

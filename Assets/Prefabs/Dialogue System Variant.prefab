@@ -92,6 +92,8 @@ MonoBehaviour:
   AllItems:
   - {fileID: 11400000, guid: ef54e8479b433c4dc9096bcd9d210bbd, type: 2}
   - {fileID: 11400000, guid: b34f3e3f6710c0f74a68dbfa0fb9403c, type: 2}
+  - {fileID: 11400000, guid: 175c22b2fd10d00e98b7ed329c512ad4, type: 2}
+  - {fileID: 11400000, guid: 92e9d07e30d112bdabf46d8c4acc6d63, type: 2}
 --- !u!1001 &1329914383361540119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -226,11 +228,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: autoStart
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: startNode
-      value: fridge
+      value: Intro
       objectReference: {fileID: 0}
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: yarnProject
