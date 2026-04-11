@@ -1,0 +1,18 @@
+title: balcony
+---
+<<if $room= 1>>
+Felix: That would be too easy.
+<<elseif $room = 2>>
+Felix: If only I could make a rope out of something...
+<<elseif $room = 3>>
+Felix: That didn't work last time.
+<<elseif $room = 4>>
+Felix: This place is a fucking prison.
+<<elseif $room = 5>>
+Felix: I don't want to turn my back on this fish.
+<<elseif $room = 6>>
+Felix: That's a trauma I don't want to revisite.
+<<else>>
+Felix: I can't get past this thing.
+<<endif>>
+===

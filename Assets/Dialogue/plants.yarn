@@ -1,0 +1,10 @@
+title: plants
+---
+<<if $room = 1>>
+Felix: These could use some water.
+Plants: We are thirsty bitches.
+<<else>>
+Felix: You look very hydrated.
+Plants: We are wet af.
+<<endif>>
+===
