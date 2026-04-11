@@ -1,0 +1,8 @@
+title: books
+---
+<<if has_item("books")>>
+Felix: 
+<<else>>
+Felix:
+<<endif>>>>
+===

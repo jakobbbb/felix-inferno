@@ -1,0 +1,15 @@
+title: pc
+---
+<<if $room == 6>>
+   Felix: Hey God, look at the incredible game I made.
+   Felix: It only took 48 hours.
+   God: That's nothing to be proud of.
+   God: Creating good things takes at least 6 days.
+<<elseif $room == 2>>
+    Felix: It's already being used.
+<<else>>
+    Felix: I guess I could play a bit.
+    ~several hours later~
+    Felix: Well that didn't help at all.
+<<endif>>
+===

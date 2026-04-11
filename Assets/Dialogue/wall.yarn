@@ -6,7 +6,7 @@
     Felix: That's actually pretty deep. #line:0da231d 
     <<declare $gaywizard = true>>
 <<elseif $room == 3>>
-    
+    Felix: A friend of yours, Bernard?
 <<elseif $room == 4>>
     <<if $musical == true>>
     Felix: Let's get out of here. #line:04967e8 
@@ -18,8 +18,8 @@
 <<elseif $room == 5>>
     Felix: I think there's a lesson in there somewhere. #line:0be314c 
 <<elseif $room == 6>>
-    Felix: Not my favourite anime.
+    Felix: Not my favourite anime. #line:06ffbf5 
 <<else>>
-    
+    Felix: I have other things to worry about right now.
 <<endif>>
 ===

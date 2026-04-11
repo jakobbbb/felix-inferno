@@ -1,0 +1,9 @@
+title: bigscreen
+---
+<<if $room ==6>>
+Felix: I would kill for a screen that big.
+God: You seem green with envy.
+<<else>>
+Felix: Interesting.
+<<endif>>
+===
