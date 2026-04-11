@@ -1,0 +1,15 @@
+title: wizard
+---
+<<if has_item("cloak")>>
+Wizard: *pondering the orb but gay*
+<<elseif $gaywizard == true>>
+Wizard: *pondering the orb*
+Felix: Do your best. Be a gay wizard.
+Wizard: Wise words indeed.
+Wizard: Take my cloak. You need it more than I do.
+<<else>>
+Wizard: *pondering the orb*
+Felix: They are pondering the orb.
+Felix: I should only interrupt if I have something really profound to say.
+<<endif>>
+===
