@@ -1,0 +1,15 @@
+title: trashcan
+---
+<<if $room = 1>>
+<<once>>>
+Felix: There's something in there.
+<<endonce>>
+Felix: There's nothing in there. <<if has_item("tofu")>>
+Felix: There's nothing in there. <<if has_item("key")>>
+<<else>>
+<<once>>>
+Felix: There's something in there.
+<<endonce>>
+Felix: There's nothing in there. <<if has_item("edding")>>
+<<endif>>
+===
