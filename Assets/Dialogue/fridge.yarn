@@ -1,0 +1,18 @@
+title: fridge
+---
+<<if $room>>
+Felix: It doesn't even have a freezer.
+=> Fridge: You don't even have clean socks at home.
+=> Fridge: You don't even have a grip on your life.
+=> Fridge: You don't even have a good relationship with your parents.
+Felix: Ok, wow.
+<<once>>
+Felix: ...
+Felix: You fight like a dairy farmer.
+Fridge: How appropriate. You fight like a cow.
+<<endonce>>
+<<if $room:>>
+Felix: I am not touching that thing again.
+Fridge: That's what she said.
+<<endif>>>>
+===

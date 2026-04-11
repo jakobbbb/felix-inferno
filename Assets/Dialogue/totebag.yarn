@@ -1,0 +1,9 @@
+title: totebag
+---
+<<if $room = 5>>
+    Felix: You know what, I'll just take them all.
+    God: Greedy bitch.
+<<else>>
+    Felix: I already have one of these.
+<<endif>>
+===
