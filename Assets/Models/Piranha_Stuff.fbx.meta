@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1ef4da89af62440aaaf64b96eb9e042f
+guid: 8e6dbabe86de33ad0a338ee58857dc39
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,18 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: feet
-    second: {fileID: 2100000, guid: ef20be5e0b7e7a3e0b75a522d2ed59c7, type: 2}
+      name: Grreen
+    second: {fileID: 2100000, guid: 9c0c28cc7bf31a0418d823a0b196e619, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: tableLegs
-    second: {fileID: 2100000, guid: 7c2fff8f07248e429a92bfd11cd78582, type: 2}
+      name: Polka
+    second: {fileID: 2100000, guid: a27f20a6fa2b8b896830a8c472fa064d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: tableboard
-    second: {fileID: 2100000, guid: f38b96b2131b22a39a1eb46f9128ff4f, type: 2}
+      name: White
+    second: {fileID: 2100000, guid: 83efe8b1e29cd92b69fe671258ed2639, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White.001
+    second: {fileID: 2100000, guid: 83efe8b1e29cd92b69fe671258ed2639, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -48,7 +53,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.8
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -106,7 +111,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.8
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
