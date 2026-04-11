@@ -5,5 +5,6 @@
     Dinosaur Tattoos: Rawr xD. #line:061614c 
 <<else>>
     Felix: You're coming with me. #line:0185181 
+    <<give_item "dinotattoos">>
 <<endif>>
 ===
