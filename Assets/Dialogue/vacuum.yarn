@@ -1,0 +1,10 @@
+title: vacuum
+---
+<<if $hamsterescape = true>>
+Felix: I think I have an idea...
+<<else>>
+Felix: It's a vacuum cleaner.
+Vacuum: I suck.
+Felix: Yes, yes you do.
+<<endif>>
+===
