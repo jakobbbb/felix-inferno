@@ -36,9 +36,17 @@ class YarnRecorder:
         print("Nodes:")
         print("\n".join(nodes))
 
-    def record_lines(self, node: str) -> None:
+    def print_speakers(self, node: str) -> None:
+        speakers = set()
         for line in self.lines:
-            if line.node == node:
+            if line.node == node and ":" in line.text:
+                speakers.add(line.text.split(":")[0])
+        print("Speakers:")
+        print("\n".join(sorted(list(speakers))))
+
+    def record_lines(self, node: str, speaker: str) -> None:
+        for line in self.lines:
+            if line.node == node and line.text.startswith(speaker):
                 self.record_line(line)
 
     def record_line(self, line: LineInfo) -> None:
@@ -46,14 +54,16 @@ class YarnRecorder:
         self.write_state_html(False, line.text)
 
         output_dir = "../Audio/"
-        line_id_underscore = line.line_id.replace(":", "_")
+        line_id_part = line.line_id.split(":")[-1]
         take = 0
+        take_str = ""
         for f in os.listdir(output_dir):
-            if line_id_underscore in f:
+            if line_id_part in f:
                 take += 1
+                take_str = f"_{take:02d}"
 
         input("Ready to record?  Press enter")
-        filename = output_dir + line_id_underscore + f"_{take:02d}" + ".wav"
+        filename = output_dir + line_id_part + take_str + ".wav"
         self.rec = subprocess.Popen(
             ["arecord", "-vv", "--format=cd", filename]
         )
@@ -77,7 +87,9 @@ class YarnRecorder:
 
 if __name__ == "__main__":
     y = YarnRecorder(sys.argv[1])
-    if len(sys.argv) == 3:
-        y.record_lines(sys.argv[2])
+    if len(sys.argv) == 4:
+        y.record_lines(sys.argv[2], sys.argv[3])
+    elif len(sys.argv) == 3:
+        y.print_speakers(sys.argv[2])
     else:
         y.print_nodes()
