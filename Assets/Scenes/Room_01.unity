@@ -627,10 +627,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7000417345349900453, guid: 1d20a6563ad1cd29b89a1fa908ed6adb, type: 3}
-      propertyPath: dialoguePresenters.Array.size
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 8555929768307855576, guid: 1d20a6563ad1cd29b89a1fa908ed6adb, type: 3}
       propertyPath: m_Name
       value: Dialogue System Variant
