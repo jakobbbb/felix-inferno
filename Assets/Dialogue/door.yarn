@@ -12,6 +12,7 @@ Felix: Maybe I should try another way out.
     <<if $trydoor == 0>>
     Felix: 
     <<set $trydoor = 1>>
+    <<endif>>
 <<elseif $room == 4>>
 Felix: 
 <<elseif $room == 5>>
