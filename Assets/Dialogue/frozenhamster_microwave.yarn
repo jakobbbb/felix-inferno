@@ -1,0 +1,7 @@
+title: frozenhamster_microwave
+---
+Felix: Now it's not frozen anymore!
+Felix: Ouch, it bit me!
+Felix: And now it's hiding inside the couch...
+<<declare $hamsterescape = true>>
+===

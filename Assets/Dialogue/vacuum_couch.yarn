@@ -1,0 +1,9 @@
+title: vacuum_couch
+---
+<<if $hamsterescape == true>>
+Felix: You know what... it does make sense somehow.
+<<declare $hamsterescape = false>>
+<<else>>
+<<jump nointeraction>>
+<<endif>>
+===
