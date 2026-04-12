@@ -1,7 +1,7 @@
-title: frozenhamster_microwave
+﻿title: frozenhamster_microwave
 ---
-Felix: Now it's not frozen anymore!
-Felix: Ouch, it bit me!
-Felix: And now it's hiding inside the couch...
+Felix: Now it's not frozen anymore! #line:0fe46b8 
+Felix: Ouch, it bit me! #line:0184037 
+Felix: And now it's hiding inside the couch... #line:0ac02d3 
 <<declare $hamsterescape = true>>
 ===
