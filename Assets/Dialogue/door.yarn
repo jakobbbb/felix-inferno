@@ -1,47 +1,47 @@
-title: door
+﻿title: door
 ---
 <<if $room == 1>>
     <<if has_item("key")>>
-    Felix: I think I have the right item to open it.
+    Felix: I think I have the right item to open it. #line:0f1ba79 
     <<else>>
-    Felix: It's locked.
+    Felix: It's locked. #line:0a0b113 
     <<endif>>
 <<elseif $room == 2>>
-Felix: Maybe I should try another way out.
+Felix: Maybe I should try another way out. #line:0bfdb5b 
 <<elseif $room == 3>>
     <<declare $tryroom = 0>>
     <<if $trydoor == 0>>
-    Felix: I feel like there's something I should do first.
+    Felix: I feel like there's something I should do first. #line:0b2baa0 
     <<set $trydoor = 1>>
     <<stop>>
     <<elseif $trydoor == 1>>
-    Felix: What if I have missed something very important in this room?
+    Felix: What if I have missed something very important in this room? #line:05cb5d4 
     <<set $trydoor = 2>>
     <<stop>>
     <<elseif $trydoor == 2>>
-    Felix: Uuuh, I am still not sure about leaving before I completely explored the room.
+    Felix: Uuuh, I am still not sure about leaving before I completely explored the room. #line:0cf06a1 
     <<set $trydoor = 3>>
     <<stop>>
     <<elseif $trydoor == 3>>
-    Felix: I just know that there must be something else for me to do here.
+    Felix: I just know that there must be something else for me to do here. #line:0d48a2d 
     <<set $trydoor = 4>>
     <<stop>>
     <<elseif $trydoor == 4>>
-    Felix: I can't leave right now, I am so close to discovering... something, i guess.
+    Felix: I can't leave right now, I am so close to discovering... something, i guess. #line:0ca12e0 
     <<set $trydoor = 5>>
     <<stop>>
     <<else>>
-    Felix: It wasn't even locked.
+    Felix: It wasn't even locked. #line:04015bf 
     <<endif>>
 <<elseif $room == 4>>
-Felix: This place is a fucking prison.
+Felix: This place is a fucking prison. #line:0c0566b 
 <<elseif $room == 5>>
-Felix: What if the fish stabs me in the back?
-Wels: What if I do?
+Felix: What if the fish stabs me in the back? #line:049f11e 
+Wels: What if I do? #line:01c9092 
 <<elseif $room == 6>>
-Felix: Can't you just let me out?
-God: No.
+Felix: Can't you just let me out? #line:0060daa 
+God: No. #line:00ef510 
 <<else>>
-Felix: I can't turn my back on this devil dog.
+Felix: I can't turn my back on this devil dog. #line:0c2d8d4 
 <<endif>>
 ===

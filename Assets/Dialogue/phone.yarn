@@ -1,27 +1,27 @@
-title: phone
+﻿title: phone
 ---
 <<if $room == 1>>
-Felix: Ugh, I really don't like making phone calls.
+Felix: Ugh, I really don't like making phone calls. #line:0ec71f0 
 <<elseif $room == 2>>
-Felix: Maybe I could order Pizza for everyone?
-Phone: *static noises*
+Felix: Maybe I could order Pizza for everyone? #line:02fc53d 
+Phone: *static noises* #line:05faba1 
 <<elseif $room == 3>>
-Phone: Please hold the line.
-Phone: You're approximate waiting time is
-Phone: Seven
-Phone: Years.
-Felix: Oh.
+Phone: Please hold the line. #line:0b994e2 
+Phone: You're approximate waiting time is #line:0251267 
+Phone: Seven #line:01ddd78 
+Phone: Years. #line:017a12f 
+Felix: Oh. #line:004f75e 
 <<elseif $room == 4>>
-Phone: *rings*
-Felix: Hello?
-Phone: Hello, is this the Crusty Crab?
-Felix: No, this is Felix.
-Phone: *hang up noises*
+Phone: *rings* #line:067186d 
+Felix: Hello? #line:05aa654 
+Phone: Hello, is this the Crusty Crab? #line:094be48 
+Felix: No, this is Felix. #line:0bd0017 
+Phone: *hang up noises* #line:0b04aca 
 <<elseif $room == 5>>
-Felix: That's it. I'm calling the police.
+Felix: That's it. I'm calling the police. #line:0b859a3 
 <<elseif $room == 6>>
-Felix: Eww, it's covered in honey.
+Felix: Eww, it's covered in honey. #line:0a86536 
 <<else>>
-Felix: I don't think anyone can help me right now.
+Felix: I don't think anyone can help me right now. #line:002d0eb 
 <<endif>>
 ===

@@ -1,8 +1,15 @@
 ﻿title: books
 ---
 <<if has_item("books")>>
-Felix:  #line:074734f 
+Felix: A classic selection. #line:00c2a07 
+Felix: Containing books like #line:0e81d40 
+=> Felix: The Art of Game Design. #line:074734f 
+=> Felix: My Immortal? #line:09a1063 
+=> Felix: Game Design for Humans. #line:0834bbf 
+=> Felix: The Queer Games Avant-Garde. #line:0cf69bd 
+=> Felix: How to talk about videogames. #line:0353015 
+=> Felix: The Ogre Mafia Bosses Willing Captive. ... Is that Shrek Fanfiction? <<if has_item("jacket") == false>> #line:0dde6b1 
 <<else>>
-Felix: #line:0ba31ac 
+Felix: Ah I love a good book. #line:0ba31ac 
 <<endif>>
 ===

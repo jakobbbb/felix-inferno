@@ -5,9 +5,9 @@ Felix: I would kill for a screen that big. #line:0919831
 God: You seem green with envy. #line:066fab1 
 <<else>>
 => Felix: Interesting. #line:0d76c14 
-=> Felix: Wow.
-=> Felix: Huh?
-=> Felix: Hmm...
-=> Felix: Nice.
+=> Felix: Wow. #line:07537cb 
+=> Felix: Huh? #line:07dfbd8 
+=> Felix: Hmm... #line:08f6d1f 
+=> Felix: Nice. #line:02231dd 
 <<endif>>
 ===
