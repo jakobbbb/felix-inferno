@@ -1,12 +1,33 @@
 using UnityEngine;
 
-public class ItemCombinations : MonoBehaviour {
+public class ItemCombinations : MonoBehaviour
+{
 
-    private static string ItemCombination(string item_a, string item_b) {
-        if (item_a == "edding" && item_b == "gamejamposter") {
+
+    public static ItemCombinations Instance { get; private set; }
+
+
+    public void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(this);
+    }
+
+    private string ItemCombination(string item_a, string item_b)
+    {
+
+
+        if (item_a == "edding" && item_b == "gamejamposter")
+        {
             return "edding_gamejamposter";
         }
-      
+
         if (item_a == "edding" && item_b == "hamster")
         {
             return "edding_hamster";
@@ -99,10 +120,12 @@ public class ItemCombinations : MonoBehaviour {
         return "nointeraction";
     }
 
-  
-    public static string CombineItems(string item_a, string item_b) {
+
+    public string CombineItems(string item_a, string item_b)
+    {
         var dia = ItemCombination(item_a, item_b);
-        if (dia != null) {
+        if (dia != null)
+        {
             return dia;
         }
         return ItemCombination(item_b, item_a);
