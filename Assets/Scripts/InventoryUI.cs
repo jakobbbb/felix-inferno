@@ -65,6 +65,7 @@ public class InventoryUI : MonoBehaviour {
     /// </summary>
     public void Hide() {
         inventoryCanvas.SetActive(false);
+        ClearButtons();
     }
 
     /// <summary>
@@ -75,24 +76,30 @@ public class InventoryUI : MonoBehaviour {
 
         List<Item> items = InventoryManager.Instance.GetItems();
 
-        foreach (var item in items) {
-            GameObject buttonObj = Instantiate(itemButtonPrefab, itemContainer);
-            spawnedButtons.Add(buttonObj);
+        foreach (var item in items) 
+        {
+            //find the first childless transform in the container to spawn the item under it
+            Transform container = FindChildless(itemContainer);
 
+            //if no childless transform is found, log a warning and skip this item
+            if (container == null )
+            {
+                Debug.LogWarning("[InventoryUI] No available container found for item: " + item.displayName);
+                continue;
+            }
+
+            //GameObject draggableObject = Instantiate(itemButtonPrefab, container);
+            GameObject draggableObject = new GameObject(item.displayName);
+            draggableObject.transform.SetParent(container, false);
             // Set icon
-            Image iconImage = buttonObj.transform.Find("Icon")?.GetComponent<Image>();
+            Image iconImage = draggableObject.AddComponent<Image>();
             if (iconImage != null && item.icon != null) {
                 iconImage.sprite = item.icon;
             }
+            draggableObject.AddComponent<DraggableItem>();
 
-            // Set name
-            TMP_Text nameText = buttonObj.transform.Find("ItemName")?.GetComponent<TMP_Text>();
-            if (nameText != null) {
-                nameText.text = item.displayName;
-            }
-
-            // Attach click event
-            Button button = buttonObj.GetComponent<Button>();
+            //attach click event
+            Button button = draggableObject.AddComponent<Button>();
             if (button != null) {
                 Item capturedItem = item; // capture for closure
                 button.onClick.AddListener(() => {
@@ -100,13 +107,64 @@ public class InventoryUI : MonoBehaviour {
                     OnItemClicked?.Invoke(capturedItem);
                 });
             }
+
+
+
+
+
         }
+
+
+        //foreach (var item in items) {
+        //    GameObject buttonObj = Instantiate(itemButtonPrefab, itemContainer);
+        //    spawnedButtons.Add(buttonObj);
+
+        //    // Set icon
+        //    Image iconImage = buttonObj.transform.Find("Icon")?.GetComponent<Image>();
+        //    if (iconImage != null && item.icon != null) {
+        //        iconImage.sprite = item.icon;
+        //    }
+
+        //    // Set name
+        //    TMP_Text nameText = buttonObj.transform.Find("ItemName")?.GetComponent<TMP_Text>();
+        //    if (nameText != null) {
+        //        nameText.text = item.displayName;
+        //    }
+
+        //    // Attach click event
+        //    Button button = buttonObj.GetComponent<Button>();
+        //    if (button != null) {
+        //        Item capturedItem = item; // capture for closure
+        //        button.onClick.AddListener(() => {
+        //            Debug.Log($"[InventoryUI] Clicked item: {capturedItem.displayName}");
+        //            OnItemClicked?.Invoke(capturedItem);
+        //        });
+        //    }
+        //}
     }
 
-    private void ClearButtons() {
-        foreach (var obj in spawnedButtons) {
-            Destroy(obj);
+    Transform FindChildless(Transform parent) { 
+
+
+
+        for (int i = 0; i < parent.childCount; i++) {
+            
+            if (parent.GetChild(i).childCount == 0) {
+                return parent.GetChild(i);
+            }
         }
-        spawnedButtons.Clear();
+
+        return null;
+    }
+
+
+    private void ClearButtons() {
+        foreach (Transform child in itemContainer)
+        {
+            if (child.childCount > 0)
+            {
+                Destroy(child.GetChild(0).gameObject);
+            }
+        }
     }
 }

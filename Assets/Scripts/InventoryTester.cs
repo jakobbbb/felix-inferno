@@ -5,27 +5,21 @@ using BugGame.Inventory;
 
 public class InventoryTester : MonoBehaviour {
 
-    [Header("Test Items")]
-    [Tooltip("Drag Item ScriptableObjects here to pre-populate the inventory for testing.")]
-    [SerializeField] private List<Item> testItems = new List<Item>();
-
     [Header("Controls")]
-    [Tooltip("Press this key to add all test items to the inventory.")]
+    [Tooltip("Press this key to add all items from InventoryManager.AllItems to the inventory.")]
     [SerializeField] private Key addAllKey = Key.F1;
-    [Tooltip("Press this key to add the next test item one at a time.")]
+    [Tooltip("Press this key to add the next item one at a time.")]
     [SerializeField] private Key addOneKey = Key.F2;
-    [Tooltip("Press this key to clear all items from the inventory.")]
+    [Tooltip("Press this key to remove all items from the inventory.")]
     [SerializeField] private Key clearKey = Key.F3;
 
     private int currentIndex = 0;
 
     private void Update() {
-        if (Keyboard.current == null)
-        {
+        if (Keyboard.current == null) {
             Debug.LogWarning("[InventoryTester] No keyboard detected. Inventory testing controls will not work.");
             return;
         }
-            
 
         if (Keyboard.current[addAllKey].wasPressedThisFrame) {
             AddAllItems();
@@ -41,48 +35,52 @@ public class InventoryTester : MonoBehaviour {
     }
 
     /// <summary>
-    /// Adds all test items to the inventory at once.
+    /// Adds every item from InventoryManager.AllItems into the player's inventory.
     /// </summary>
     private void AddAllItems() {
-        if (testItems.Count == 0) {
-            Debug.LogWarning("[InventoryTester] No test items assigned.");
+        List<Item> allItems = InventoryManager.Instance.AllItems;
+
+        if (allItems == null || allItems.Count == 0) {
+            Debug.LogWarning("[InventoryTester] No items found in InventoryManager.AllItems.");
             return;
         }
 
-        foreach (var item in testItems) {
+        foreach (var item in allItems) {
             Debug.Log($"[InventoryTester] Adding: {item.displayName}");
             InventoryManager.GiveItem(item.displayName);
-            Debug.Log($"[InventoryTester] Added: {item.displayName}");
         }
 
-        currentIndex = testItems.Count;
+        currentIndex = allItems.Count;
+        Debug.Log($"[InventoryTester] Added all {allItems.Count} items.");
         RefreshUI();
     }
 
     /// <summary>
-    /// Adds the next item from the test list one at a time.
+    /// Adds the next item from InventoryManager.AllItems one at a time.
     /// </summary>
     private void AddNextItem() {
-        if (testItems.Count == 0) {
-            Debug.LogWarning("[InventoryTester] No test items assigned.");
+        List<Item> allItems = InventoryManager.Instance.AllItems;
+
+        if (allItems == null || allItems.Count == 0) {
+            Debug.LogWarning("[InventoryTester] No items found in InventoryManager.AllItems.");
             return;
         }
 
-        if (currentIndex >= testItems.Count) {
-            Debug.Log("[InventoryTester] All test items already added. Press Clear to reset.");
+        if (currentIndex >= allItems.Count) {
+            Debug.Log("[InventoryTester] All items already added. Press Clear to reset.");
             return;
         }
 
-        var item = testItems[currentIndex];
+        var item = allItems[currentIndex];
         InventoryManager.GiveItem(item.displayName);
-        Debug.Log($"[InventoryTester] Added ({currentIndex + 1}/{testItems.Count}): {item.displayName}");
+        Debug.Log($"[InventoryTester] Added ({currentIndex + 1}/{allItems.Count}): {item.displayName}");
         currentIndex++;
 
         RefreshUI();
     }
 
     /// <summary>
-    /// Removes all items from the inventory.
+    /// Removes all items currently in the player's inventory.
     /// </summary>
     private void ClearInventory() {
         var items = new List<Item>(InventoryManager.Instance.GetItems());
