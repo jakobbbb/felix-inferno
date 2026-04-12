@@ -19,6 +19,7 @@ Felix: No, this is Felix. #line:0bd0017
 Phone: *hang up noises* #line:0b04aca 
 <<elseif $room == 5>>
 Felix: That's it. I'm calling the police. #line:0b859a3 
+<<play_animation "fbiopenup">>
 <<elseif $room == 6>>
 Felix: Eww, it's covered in honey. #line:0a86536 
 <<else>>

@@ -3,6 +3,7 @@
 <<if $room == 1>>
 Felix: I came out of this once. #line:0b845cb 
 <<elseif $room == 2>>
+<<open_bees>>
 Felix: Bees? #line:08f51e8 
 <<elseif $room == 3>>
 Felix: I don't support pay-to-win. #line:0aa1cab 
