@@ -20,16 +20,17 @@ public class CursorUI : MonoBehaviour
 
     public string _currentCursorName = null;
 
+    public bool isDragging = false;
 
 
     private void Awake()
     {
-        //if (Instance != null && Instance != this)
-        //{
-        //    Destroy(gameObject);
-        //    return;
-        //}
-        //Instance = this;
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
         //DontDestroyOnLoad(gameObject);
 
         _cursorTransform = GetComponent<RectTransform>();
@@ -44,12 +45,13 @@ public class CursorUI : MonoBehaviour
 
     private void OnEnable()
     {
-        
+        Cursor.visible = false;
         _pointerPositionAction.action.performed += OnPointerPositionChanged;
     }
 
     private void OnDisable()
     {
+        Cursor.visible = true;
         _pointerPositionAction.action.performed -= OnPointerPositionChanged;
     }
 
@@ -72,6 +74,12 @@ public class CursorUI : MonoBehaviour
         {
             _currentCursorName = "Selected";
         }
+
+        if(isDragging)
+        {
+            _currentCursorName = "Dragging";
+        }
+
 
         SetCursor(_currentCursorName);
     }

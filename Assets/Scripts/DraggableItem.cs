@@ -21,6 +21,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, 
         transform.SetAsLastSibling(); // Ensure it's on top of other UI elements
         itemImage.raycastTarget = false; // Disable raycast to allow drop detection
 
+        CursorUI.Instance.isDragging = true; // Set dragging state in CursorUI
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -34,6 +35,8 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, 
         Debug.Log("End Drag");
         transform.SetParent(parentAfterDrag); // Return to original parent
         itemImage.raycastTarget = true; // Re-enable raycast
+
+        CursorUI.Instance.isDragging = false; // Clear dragging state in CursorUI
     }
 
 
