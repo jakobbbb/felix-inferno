@@ -158,6 +158,7 @@ public class SceneManagement : MonoBehaviour
     {
         Debug.Log($"[SceneManagement] Loading scene index: {sceneIndex}");
         StartCoroutine(LoadSceneAsync(sceneIndex));
+        DialogueManager.Instance.Runner.VariableStorage.SetValue("room", sceneIndex + 1);
     }
 
     #endregion Exposed Methods
