@@ -1138,6 +1138,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 11.354}
+--- !u!1001 &719459932
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4670533e305f544948499694f79784b4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.57255
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4670533e305f544948499694f79784b4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.57255
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4670533e305f544948499694f79784b4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.57255
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4670533e305f544948499694f79784b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.809
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4670533e305f544948499694f79784b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.187
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4670533e305f544948499694f79784b4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.519
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4670533e305f544948499694f79784b4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7016738
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4670533e305f544948499694f79784b4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7016738
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4670533e305f544948499694f79784b4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.08748677
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4670533e305f544948499694f79784b4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.08748677
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4670533e305f544948499694f79784b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4670533e305f544948499694f79784b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4670533e305f544948499694f79784b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 14.214
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4670533e305f544948499694f79784b4, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a9cd3ad6d81332a1bb7aef937225fbd, type: 2}
+    - target: {fileID: 919132149155446097, guid: 4670533e305f544948499694f79784b4, type: 3}
+      propertyPath: m_Name
+      value: PosterRoll (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4670533e305f544948499694f79784b4, type: 3}
 --- !u!1 &726621972
 GameObject:
   m_ObjectHideFlags: 0
@@ -1468,6 +1541,8 @@ GameObject:
   - component: {fileID: 840612347}
   - component: {fileID: 840612346}
   - component: {fileID: 840612348}
+  - component: {fileID: 840612350}
+  - component: {fileID: 840612349}
   m_Layer: 0
   m_Name: D_Pzza
   m_TagString: Untagged
@@ -1543,7 +1618,7 @@ Transform:
   m_GameObject: {fileID: 840612345}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7933525, z: -0, w: 0.6087626}
-  m_LocalPosition: {x: 3.335, y: -1.558, z: -0.379}
+  m_LocalPosition: {x: 3.335, y: -1.363, z: -0.379}
   m_LocalScale: {x: 0.0460032, y: 0.0460032, z: 0.0460032}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1561,6 +1636,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db149e48fcaf277e3aa698b870169915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BillboardSprite
+--- !u!114 &840612349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840612345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ebaabcc9cc7ac7594f68aca5782651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  m_DialogueNode: pizzaflyer
+--- !u!65 &840612350
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840612345}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12.150004, y: 16.2, z: 0.20000026}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &944333071
 GameObject:
   m_ObjectHideFlags: 0
@@ -2734,7 +2843,9 @@ GameObject:
   - component: {fileID: 1837496979}
   - component: {fileID: 1837496978}
   - component: {fileID: 1837496977}
-  m_Layer: 0
+  - component: {fileID: 1837496981}
+  - component: {fileID: 1837496980}
+  m_Layer: 6
   m_Name: D_Plant2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2827,6 +2938,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 53.605, z: 0}
+--- !u!114 &1837496980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837496976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ebaabcc9cc7ac7594f68aca5782651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  m_DialogueNode: plants
+--- !u!65 &1837496981
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837496976}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.745815, y: 25, z: 0.19999999}
+  m_Center: {x: 0.153499, y: 0, z: 0.0000035091043}
 --- !u!1 &1887854140
 GameObject:
   m_ObjectHideFlags: 0
@@ -3038,3 +3183,4 @@ SceneRoots:
   - {fileID: 1837496979}
   - {fileID: 590560312}
   - {fileID: 840612347}
+  - {fileID: 719459932}
