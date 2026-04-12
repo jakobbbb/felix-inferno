@@ -28,7 +28,10 @@ public class DialogueManager : MonoBehaviour {
 
     // the patient needs more mouse rays...
     public Interactable CastMouseRay() {
-        var hit = RayUtils.CastMouseRayToWorld(1 << LayerMask.NameToLayer("Interactable"));
+        var mask_interactable = 1 << LayerMask.NameToLayer("Interactable");
+        var mask_ui = 1 << LayerMask.NameToLayer("UI");
+
+        var hit = RayUtils.CastMouseRayToWorld(mask_interactable | mask_ui);
         if (hit == null) {
             return null;
         }

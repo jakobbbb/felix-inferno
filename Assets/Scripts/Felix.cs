@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.EventSystems;
 
 public class Felix : MonoBehaviour {
 
@@ -20,6 +21,9 @@ public class Felix : MonoBehaviour {
 
     public void Update() {
         if (DialogueManager.Instance.Runner.IsDialogueRunning) {
+            return;
+        }
+        if (EventSystem.current.IsPointerOverGameObject()) {
             return;
         }
 
