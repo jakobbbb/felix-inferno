@@ -5,12 +5,15 @@
 Felix: There's something in there. #line:06dc961 
 <<give_item "tofu">>
 <<endonce>>
+<<elseif has_item("tofu")>> 
 Felix: There's nothing in there. <<if has_item("tofu")>> #line:017c243 
+<<elseif has_item("key")>>
 Felix: There's nothing in there. <<if has_item("key")>> #line:018cb55 
-<<else>>
+<<elseif $room > 1>>
 <<once>>> #line:0bf9583 
 Felix: There's something in there. #line:07101d6 
 <<endonce>>
+<<else>>
 Felix: There's nothing in there. <<if has_item("edding")>> #line:0772ce5 
 <<endif>>
 ===
