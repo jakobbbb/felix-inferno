@@ -903,7 +903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ebaabcc9cc7ac7594f68aca5782651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interactable
-  m_DialogueNode: themusical
+  m_DialogueNode: wall
 --- !u!1 &586667113
 GameObject:
   m_ObjectHideFlags: 0
