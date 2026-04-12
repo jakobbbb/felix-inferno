@@ -24,7 +24,10 @@ public class Felix : MonoBehaviour {
             return;
         }
         if (EventSystem.current.IsPointerOverGameObject()) {
-            return;
+            var go = EventSystem.current.currentSelectedGameObject;
+            if (go != null && go.layer == LayerMask.NameToLayer("UI")) {
+                return;
+            }
         }
 
         if (m_Actions.Click.action.WasPerformedThisFrame()) {
