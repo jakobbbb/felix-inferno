@@ -34,7 +34,18 @@ class YarnRecorder:
     def print_nodes(self) -> None:
         nodes = sorted(list(set([line.node for line in self.lines])))
         print("Nodes:")
-        print("\n".join(nodes))
+        for node in nodes:
+            total = 0
+            done = 0
+            for line in self.lines:
+                if line.node == node:
+                    total += 1
+                    line_id_part = line.line_id.split(":")[-1]
+                    if os.path.exists("../Audio/" + line_id_part + ".wav"):
+                        done += 1
+
+            p = int((100 * done) / total)
+            print(f"{node} ({p}%)")
 
     def print_speakers(self, node: str) -> None:
         speakers = set()
