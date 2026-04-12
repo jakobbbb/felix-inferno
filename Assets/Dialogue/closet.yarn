@@ -1,18 +1,18 @@
-title: closet
+﻿title: closet
 ---
 <<if $room == 1>>
-Felix: I came out of this once.
+Felix: I came out of this once. #line:0b845cb 
 <<elseif $room == 2>>
-Felix: Bees?
+Felix: Bees? #line:08f51e8 
 <<elseif $room == 3>>
-Felix: I don't support pay-to-win.
+Felix: I don't support pay-to-win. #line:0aa1cab 
 <<elseif $room == 4>>
-Felix: Aww, I love cats.
+Felix: Aww, I love cats. #line:0c4d8c0 
 <<elseif $room == 5>>
-Felix: Ralf Schumacher??
+Felix: Ralf Schumacher?? #line:0a3d8f4 
 <<elseif $room == 6>>
-Felix: I'm gonna close this real quick.
+Felix: I'm gonna close this real quick. #line:0cba426 
 <<else>>
-Felix: I can't go back in there.
+Felix: I can't go back in there. #line:0872778 
 <<endif>>
 ===
