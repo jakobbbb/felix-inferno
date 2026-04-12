@@ -1,3 +1,4 @@
+using BugGame.Inventory;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -7,6 +8,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, 
 {
     public Transform parentAfterDrag;
     public Image itemImage; // Reference to the Image component for visual feedback
+    public BugGame.Inventory.Item item;
 
     private void Awake()
     {
