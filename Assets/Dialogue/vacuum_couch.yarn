@@ -3,6 +3,7 @@
 <<if $hamsterescape == true>>
 Felix: You know what... it does make sense somehow. #line:0c52dd7 
 <<set $hamsterescape = false>>
+<<give_item "hamster">>
 <<else>>
 <<jump nointeraction>>
 <<endif>>

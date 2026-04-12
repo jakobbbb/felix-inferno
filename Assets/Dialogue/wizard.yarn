@@ -7,6 +7,7 @@ Wizard: *pondering the orb* #line:0cec5b2
 Felix: Do your best. Be a gay wizard. #line:04171a4 
 Wizard: Wise words indeed. #line:0f967f0 
 Wizard: Take my cloak. You need it more than I do. #line:063625a 
+<<give_item "cloak">>
 <<else>>
 Wizard: *pondering the orb* #line:00ae8de 
 Felix: They are pondering the orb. #line:00d174b 

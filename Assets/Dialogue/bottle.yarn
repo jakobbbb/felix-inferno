@@ -1,5 +1,6 @@
 ﻿title: bottle
 ---
 Felix: I hate this stuff. #line:0f50c8c 
+<<give_item "bottle">>
 Bottle: I don't like you either. #line:0858041 
 ===

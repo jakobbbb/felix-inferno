@@ -5,4 +5,5 @@ Person 5: Why would I... Oh that actually looks interesting. #line:0c36f96
 Person 5: *starts reading* #line:05a07e9 
 Person 5: I am suddenly feeling really hot. #line:0b19020 
 Person 5: Hold my jacket, I don't need it right now. #line:00c3056 
+<<give_item "jacket">>
 ===

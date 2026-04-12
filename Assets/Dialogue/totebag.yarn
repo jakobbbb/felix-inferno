@@ -5,6 +5,7 @@
     God: Greedy bitch. #line:0dd0aea 
     <<once>>
     <<set $godcounter = $godcounter + 1>>
+    <<give_item "totebag">>
     <<endonce>>
 <<else>>
     Felix: I already have one of these. #line:0ee0ef1 

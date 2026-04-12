@@ -4,6 +4,7 @@
     <<once>>
     Felix: Aur naur, Cleo. #line:0955498 
     Mermaid: Aur naur. #line:048bc84 
+    <<give_item "mermaid">>
     <<endonce>>
     Felix: What a nice aquarium. #line:06e8464 
     Aquarium: What a nice person. #line:07f55fe 
@@ -35,6 +36,7 @@
     Goose: *honk* #line:0bbade1 
     <<endonce>>
     Felix: ... #line:0352add 
+    <<give_item "goose">>
     <<once>>
     Felix: That goose murdered my parents. #line:0eff6f0 
     <<set $godcounter = $godcounter + 1>>

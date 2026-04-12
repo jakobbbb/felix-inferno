@@ -13,6 +13,7 @@ Felix: There's nothing in there. <<if has_item("key")>> #line:018cb55
 <<elseif $room > 1>>
 <<once>>> #line:0bf9583 
 Felix: There's something in there. #line:07101d6 
+<<give_item "edding">>
     <<stop>>
 <<endonce>>
 <<else>>
