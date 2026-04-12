@@ -151,6 +151,9 @@ public class SceneManagement : MonoBehaviour
     {
         Debug.Log($"[SceneManagement] Loading scene: {sceneName}");
         StartCoroutine(LoadSceneAsync(sceneName));
+        DialogueManager.Instance.Runner.VariableStorage.SetValue("$room",
+                int.Parse(sceneName.Split("_")[1])
+        );
     }
 
     // Loads a scene asynchronously by build index, showing the loading screen.
@@ -158,7 +161,7 @@ public class SceneManagement : MonoBehaviour
     {
         Debug.Log($"[SceneManagement] Loading scene index: {sceneIndex}");
         StartCoroutine(LoadSceneAsync(sceneIndex));
-        DialogueManager.Instance.Runner.VariableStorage.SetValue("room", sceneIndex + 1);
+        DialogueManager.Instance.Runner.VariableStorage.SetValue("$room", sceneIndex + 1);
     }
 
     #endregion Exposed Methods
