@@ -10,8 +10,27 @@ title: door
 Felix: Maybe I should try another way out.
 <<elseif $room == 3>>
     <<if $trydoor == 0>>
-    Felix: 
+    Felix: I feel like there's something I should do first.
     <<set $trydoor = 1>>
+    <<stop>>
+    <<elseif $trydoor == 1>>
+    Felix: 
+    <<set $trydoor = 2>>
+    <<stop>>
+    <<elseif $trydoor == 2>>
+    Felix: 
+    <<set $trydoor = 3>>
+    <<stop>>
+    <<elseif $trydoor == 3>>
+    Felix: 
+    <<set $trydoor = 4>>
+    <<stop>>
+    <<elseif $trydoor == 4>>
+    Felix: 
+    <<set $trydoor = 5>>
+    <<stop>>
+    <<else>>
+    Felix: It wasn't even locked.
     <<endif>>
 <<elseif $room == 4>>
 Felix: 
