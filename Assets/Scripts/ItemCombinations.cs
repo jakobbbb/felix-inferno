@@ -3,8 +3,8 @@ using UnityEngine;
 public class ItemCombinations : MonoBehaviour {
 
     private string ItemCombination(string item_a, string item_b) {
-        if (item_a == "piranhaplant" && item_b == "tofu") {
-
+        if (item_a == "edding" && item_b == "gamejamposter") {
+            return "edding_gamejamposter";
         }
 
         return "nointeraction";
