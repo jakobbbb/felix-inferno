@@ -9,35 +9,38 @@ title: door
 <<elseif $room == 2>>
 Felix: Maybe I should try another way out.
 <<elseif $room == 3>>
+    <<declare $tryroom = 0>>
     <<if $trydoor == 0>>
     Felix: I feel like there's something I should do first.
     <<set $trydoor = 1>>
     <<stop>>
     <<elseif $trydoor == 1>>
-    Felix: 
+    Felix: What if I have missed something very important in this room?
     <<set $trydoor = 2>>
     <<stop>>
     <<elseif $trydoor == 2>>
-    Felix: 
+    Felix: Uuuh, I am still not sure about leaving before I completely explored the room.
     <<set $trydoor = 3>>
     <<stop>>
     <<elseif $trydoor == 3>>
-    Felix: 
+    Felix: I just know that there must be something else for me to do here.
     <<set $trydoor = 4>>
     <<stop>>
     <<elseif $trydoor == 4>>
-    Felix: 
+    Felix: I can't leave right now, I am so close to discovering... something, i guess.
     <<set $trydoor = 5>>
     <<stop>>
     <<else>>
     Felix: It wasn't even locked.
     <<endif>>
 <<elseif $room == 4>>
-Felix: 
+Felix: This place is a fucking prison.
 <<elseif $room == 5>>
-Felix: 
+Felix: What if the fish stabs me in the back?
+Wels: What if I do?
 <<elseif $room == 6>>
-Felix: 
+Felix: Can't you just let me out?
+God: No.
 <<else>>
 Felix: I can't turn my back on this devil dog.
 <<endif>>
