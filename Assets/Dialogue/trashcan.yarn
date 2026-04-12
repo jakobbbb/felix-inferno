@@ -1,6 +1,6 @@
 ﻿title: trashcan
 ---
-<<if $room == 1>>
+<<if $room == 1 && has_item("tofu") == false>>
 <<once>>> #line:03a78cc 
 Felix: There's something in there. #line:06dc961 
 <<give_item "tofu">>
