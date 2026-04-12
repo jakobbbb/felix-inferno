@@ -3,6 +3,9 @@
 <<if $room == 6>>
 Felix: ... #line:0db55ee 
 God: Ewww, brother ewww #line:06b56d5 
+<<once>>
+<<set $godcounter = $godcounter + 1>>
+<<endonce>>
 <<elseif has_item("books")>>
 Felix: A classic selection. #line:00c2a07 
 Felix: Containing books like #line:0e81d40 

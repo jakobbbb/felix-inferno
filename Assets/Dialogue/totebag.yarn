@@ -3,6 +3,9 @@
 <<if $room== 6>>
     Felix: You know what, I'll just take them all. #line:0737c8a 
     God: Greedy bitch. #line:0dd0aea 
+    <<once>>
+    <<set $godcounter = $godcounter + 1>>
+    <<endonce>>
 <<else>>
     Felix: I already have one of these. #line:0ee0ef1 
 <<endif>>

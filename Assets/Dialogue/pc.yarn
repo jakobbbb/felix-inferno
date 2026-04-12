@@ -5,11 +5,14 @@
    Felix: It only took 48 hours. #line:07ec74e 
    God: That's nothing to be proud of. #line:0e7710e 
    God: Creating good things takes at least 6 days. #line:06c41bd 
+   <<once>>
+    <<set $godcounter = $godcounter + 1>>
+    <<endonce>>
 <<elseif $room == 2>>
     Felix: It's already being used. #line:0b2e4ed 
 <<else>>
     Felix: I guess I could play a bit. #line:0d7b01e 
-    ~several hours later~ #line:07432a9 
+    A:~several hours later~ #line:07432a9 
     Felix: Well that didn't help at all. #line:074c096 
 <<endif>>
 ===

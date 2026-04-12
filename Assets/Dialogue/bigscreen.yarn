@@ -1,8 +1,11 @@
 ﻿title: bigscreen
 ---
-<<if $room ==6>>
+<<if $room == 6>>
 Felix: I would kill for a screen that big. #line:0919831 
 God: You seem green with envy. #line:066fab1 
+<<once>>
+<<set $godcounter = $godcounter + 1>>
+<<endonce>>
 <<else>>
 => Felix: Interesting. #line:0d76c14 
 => Felix: Wow. #line:07537cb 

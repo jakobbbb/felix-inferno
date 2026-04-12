@@ -37,6 +37,7 @@
     Felix: ... #line:0352add 
     <<once>>
     Felix: That goose murdered my parents. #line:0eff6f0 
+    <<set $godcounter = $godcounter + 1>>
     <<endonce>>
 <<else>>
     Felix: I can't get past this thing. #line:02dccc5 

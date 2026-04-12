@@ -5,6 +5,9 @@
 <<elseif $room == 6>>
 Felix: I could eat 100 pizzas right now. #line:0a11047 
 God: You know that gluttony is a sin, right? #line:02502cf 
+<<once>>
+<<set $godcounter = $godcounter + 1>>
+<<endonce>>
 <<else>>
     Felix: Damn, I'm hungry right now. #line:0d8619a 
 <<endif>>
