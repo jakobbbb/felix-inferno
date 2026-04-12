@@ -256,7 +256,9 @@ GameObject:
   m_Component:
   - component: {fileID: 28951332}
   - component: {fileID: 28951333}
-  m_Layer: 0
+  - component: {fileID: 28951335}
+  - component: {fileID: 28951334}
+  m_Layer: 6
   m_Name: aquarium7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,6 +339,40 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &28951334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28951331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ebaabcc9cc7ac7594f68aca5782651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  m_DialogueNode: aquarium
+--- !u!65 &28951335
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28951331}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.529665, y: 18.858519, z: 0.2}
+  m_Center: {x: -1.0321125, y: 0.644088, z: 0}
 --- !u!1 &362170913
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,7 +475,9 @@ GameObject:
   m_Component:
   - component: {fileID: 548382526}
   - component: {fileID: 548382527}
-  m_Layer: 0
+  - component: {fileID: 548382529}
+  - component: {fileID: 548382528}
+  m_Layer: 6
   m_Name: fireextinguisher7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -520,6 +558,40 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &548382528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548382525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ebaabcc9cc7ac7594f68aca5782651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  m_DialogueNode: fireextinguisher
+--- !u!65 &548382529
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548382525}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.508585, y: 22.558205, z: 0.20000005}
+  m_Center: {x: 1.211718, y: 0.76152205, z: 2.1280517e-16}
 --- !u!1 &733239515
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,7 +735,9 @@ GameObject:
   m_Component:
   - component: {fileID: 765846573}
   - component: {fileID: 765846574}
-  m_Layer: 0
+  - component: {fileID: 765846576}
+  - component: {fileID: 765846575}
+  m_Layer: 6
   m_Name: closet7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -744,6 +818,40 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &765846575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765846572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ebaabcc9cc7ac7594f68aca5782651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  m_DialogueNode: closet
+--- !u!65 &765846576
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765846572}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.550183, y: 18.038418, z: 0.20000032}
+  m_Center: {x: -0.4686583, y: 0.3577532, z: 0}
 --- !u!1 &974780647
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,7 +953,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1163013213}
   - component: {fileID: 1163013214}
-  m_Layer: 0
+  - component: {fileID: 1163013216}
+  - component: {fileID: 1163013215}
+  m_Layer: 6
   m_Name: balcony7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -926,6 +1036,40 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1163013215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163013212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ebaabcc9cc7ac7594f68aca5782651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  m_DialogueNode: balcony
+--- !u!65 &1163013216
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163013212}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12.529415, y: 18.063803, z: 0.20000003}
+  m_Center: {x: -0.5678216, y: 0.049613763, z: 3.1010215e-16}
 --- !u!1 &1601577816
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,7 +1080,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1601577818}
   - component: {fileID: 1601577817}
-  m_Layer: 0
+  - component: {fileID: 1601577820}
+  - component: {fileID: 1601577819}
+  m_Layer: 6
   m_Name: microphone7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1017,6 +1163,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 753380213}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1601577819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601577816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ebaabcc9cc7ac7594f68aca5782651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  m_DialogueNode: microphone
+--- !u!65 &1601577820
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601577816}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.768204, y: 13.981378, z: 0.20000021}
+  m_Center: {x: -0.93084884, y: 0.34795213, z: 0}
 --- !u!1 &1653333135
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,7 +1207,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1653333136}
   - component: {fileID: 1653333137}
-  m_Layer: 0
+  - component: {fileID: 1653333139}
+  - component: {fileID: 1653333138}
+  m_Layer: 6
   m_Name: door7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1108,6 +1290,40 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1653333138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653333135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ebaabcc9cc7ac7594f68aca5782651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  m_DialogueNode: door
+--- !u!65 &1653333139
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653333135}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 11.363683, y: 15.454002, z: 0.20000005}
+  m_Center: {x: -1.5860568, y: 0.5717346, z: -5.453737e-15}
 --- !u!1 &1735183090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,7 +1482,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1979648667}
   - component: {fileID: 1979648668}
-  m_Layer: 0
+  - component: {fileID: 1979648670}
+  - component: {fileID: 1979648669}
+  m_Layer: 6
   m_Name: phone7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1347,6 +1565,40 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1979648669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979648666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ebaabcc9cc7ac7594f68aca5782651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  m_DialogueNode: phone
+--- !u!65 &1979648670
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979648666}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 18.425068, y: 15.420547, z: 0.20000005}
+  m_Center: {x: -2.5417173, y: 0.79439694, z: 4.5832953e-15}
 --- !u!1 &1998390092
 GameObject:
   m_ObjectHideFlags: 0
