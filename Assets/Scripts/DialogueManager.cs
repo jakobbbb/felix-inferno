@@ -47,9 +47,10 @@ public class DialogueManager : MonoBehaviour {
     [YarnCommand("play_animation")]
     public static void PlayAnimation(string anim) {
         if (anim == "musical") {
-            var dance = GameObject.Find("Dance");
+            Debug.Log("MUSIC");
+            var dance = GameObject.Find("DancingParent");
             if (dance != null) {
-                dance.SetActive(true);
+                dance.transform.GetChild(0).gameObject.SetActive(true);
             }
         }
     }
