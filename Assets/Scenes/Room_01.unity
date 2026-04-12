@@ -840,6 +840,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2735429633470718197, guid: aa572d3e0e6ed92419d353aa72590b22, type: 3}
+      propertyPath: enableTestMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5237102543008221118, guid: aa572d3e0e6ed92419d353aa72590b22, type: 3}
       propertyPath: m_Name
       value: Scene Manager
