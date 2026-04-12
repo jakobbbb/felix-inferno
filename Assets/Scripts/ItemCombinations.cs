@@ -7,7 +7,7 @@ public class ItemCombinations : MonoBehaviour {
 
         }
 
-        return null;
+        return "nointeraction";
     }
 
     public string CombineItems(string item_a, string item_b) {
