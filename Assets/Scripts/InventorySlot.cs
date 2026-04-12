@@ -39,6 +39,7 @@ public class InventorySlot : MonoBehaviour, IDropHandler
                 InventoryManager.TakeItem(a);
                 InventoryManager.TakeItem(b);
                 InventoryManager.GiveItem(result.displayName);
+                InventoryManager.GiveItem("Edding"); // Add the merged item to inventory
 
                 // Remove the two UI items
                 Destroy(existing.gameObject);

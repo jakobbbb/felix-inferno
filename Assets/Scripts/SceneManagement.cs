@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using TMPro;
+using Yarn.Unity;
 
 public class SceneManagement : MonoBehaviour
 {
@@ -65,7 +66,7 @@ public class SceneManagement : MonoBehaviour
         sceneIndex++;
 
         // Wrap around if it exceeds the total number of scenes in build settings
-        if (sceneIndex >= 0) 
+        if (sceneIndex >= 0)
         {
             //get total number of scenes in build settings
             int totalScenes = SceneManager.sceneCountInBuildSettings;
@@ -87,6 +88,56 @@ public class SceneManagement : MonoBehaviour
     }
 
     #endregion Testing mode
+
+    #region Yarn commands
+
+    // Usage in Yarn: <<load_scene "SceneName">>
+    [YarnCommand("load_scene")]
+    public static void YarnLoadScene(string sceneName)
+    {
+        if (string.IsNullOrEmpty(sceneName))
+        {
+            Debug.LogWarning("[SceneManagement] Yarn command load_scene called with empty scene name.");
+            return;
+        }
+
+        if (Instance == null)
+        {
+            Debug.LogError("[SceneManagement] No SceneManagement instance available to load scene.");
+            return;
+        }
+
+        Debug.Log($"[SceneManagement] Yarn requested loading scene: {sceneName}");
+        Instance.LoadScene(sceneName);
+    }
+
+    // Usage in Yarn: <<load_scene_index "2">>  (index passed as string)
+    [YarnCommand("load_scene_index")]
+    public static void YarnLoadSceneIndex(string indexString)
+    {
+        if (string.IsNullOrEmpty(indexString))
+        {
+            Debug.LogWarning("[SceneManagement] Yarn command load_scene_index called with empty index.");
+            return;
+        }
+
+        if (!int.TryParse(indexString, out int index))
+        {
+            Debug.LogWarning($"[SceneManagement] load_scene_index expects an integer index, got '{indexString}'.");
+            return;
+        }
+
+        if (Instance == null)
+        {
+            Debug.LogError("[SceneManagement] No SceneManagement instance available to load scene by index.");
+            return;
+        }
+
+        Debug.Log($"[SceneManagement] Yarn requested loading scene index: {index}");
+        Instance.LoadScene(index);
+    }
+
+    #endregion Yarn commands
 
     #region Exposed Methods
 

@@ -38,8 +38,8 @@ public class InventoryUI : MonoBehaviour {
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        if (itemContainer != null)
-            itemContainer.gameObject.SetActive(false);
+        if (inventoryCanvas != null)
+            inventoryCanvas.SetActive(false);
     }
 
     private void Update() {
@@ -105,7 +105,7 @@ public class InventoryUI : MonoBehaviour {
                 Item capturedItem = item; // capture for closure
                 button.onClick.AddListener(() => {
                     Debug.Log($"[InventoryUI] Clicked item: {capturedItem.displayName}");
-                    OnItemClicked?.Invoke(capturedItem);
+                    DialogueManager.Instance.StartDialogue(capturedItem.dialogueReference);
                 });
             }
 

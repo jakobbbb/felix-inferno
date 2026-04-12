@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: vacuum
   m_EditorClassIdentifier: Assembly-CSharp::BugGame.Inventory.Item
   displayName: Vacuum
-  dialogueReference: 
+  dialogueReference: vacuum
   icon: {fileID: 21300000, guid: a2bf8892fe5c0bb419ec3bedd8934cfb, type: 3}

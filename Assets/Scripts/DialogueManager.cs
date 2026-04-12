@@ -43,4 +43,9 @@ public class DialogueManager : MonoBehaviour {
 
         return ia;
     }
+
+    [YarnCommand("play_animation")]
+    public static void PlayAnimation(string anim) {
+        // TODO
+    }
 }
