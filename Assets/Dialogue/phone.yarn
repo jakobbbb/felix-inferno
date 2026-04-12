@@ -1,0 +1,27 @@
+title: phone
+---
+<<if $room == 1>>
+Felix: Ugh, I really don't like making phone calls.
+<<elseif $room == 2>>
+Felix: Maybe I could order Pizza for everyone?
+Phone: *static noises*
+<<elseif $room == 3>>
+Phone: Please hold the line.
+Phone: You're approximate waiting time is
+Phone: Seven
+Phone: Years.
+Felix: Oh.
+<<elseif $room == 4>>
+Phone: *rings*
+Felix: Hello?
+Phone: Hello, is this the Crusty Crab?
+Felix: No, this is Felix.
+Phone: *hang up noises*
+<<elseif $room == 5>>
+Felix: That's it. I'm calling the police.
+<<elseif $room == 6>>
+Felix: Eww, it's covered in honey.
+<<else>>
+Felix: I don't think anyone can help me right now.
+<<endif>>
+===

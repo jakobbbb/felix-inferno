@@ -1,0 +1,24 @@
+title: door
+---
+<<if $room == 1>>
+    <<if has_item("key")>>
+    Felix: I think I have the right item to open it.
+    <<else>>
+    Felix: It's locked.
+    <<endif>>
+<<elseif $room == 2>>
+Felix: Maybe I should try another way out.
+<<elseif $room == 3>>
+    <<if $trydoor == 0>>
+    Felix: 
+    <<set $trydoor = 1>>
+<<elseif $room == 4>>
+Felix: 
+<<elseif $room == 5>>
+Felix: 
+<<elseif $room == 6>>
+Felix: 
+<<else>>
+Felix: I can't turn my back on this devil dog.
+<<endif>>
+===

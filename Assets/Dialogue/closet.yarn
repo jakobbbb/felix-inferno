@@ -1,0 +1,18 @@
+title: closet
+---
+<<if $room == 1>>
+Felix: I came out of this once.
+<<elseif $room == 2>>
+Felix: Bees?
+<<elseif $room == 3>>
+Felix: I don't support pay-to-win.
+<<elseif $room == 4>>
+Felix: Aww, I love cats.
+<<elseif $room == 5>>
+Felix: Ralf Schumacher??
+<<elseif $room == 6>>
+Felix: I'm gonna close this real quick.
+<<else>>
+Felix: I can't go back in there.
+<<endif>>
+===
