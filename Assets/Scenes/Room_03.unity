@@ -1447,7 +1447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ebaabcc9cc7ac7594f68aca5782651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interactable
-  m_DialogueNode: fridge
+  m_DialogueNode: freezer
 --- !u!65 &1210415203
 BoxCollider:
   m_ObjectHideFlags: 0
