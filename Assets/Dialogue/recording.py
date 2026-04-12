@@ -32,7 +32,7 @@ class YarnRecorder:
         pass
 
     def print_nodes(self) -> None:
-        nodes = set([line.node for line in self.lines])
+        nodes = sorted(list(set([line.node for line in self.lines])))
         print("Nodes:")
         print("\n".join(nodes))
 

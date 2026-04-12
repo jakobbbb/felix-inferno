@@ -38,8 +38,8 @@ public class InventoryUI : MonoBehaviour {
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        if (inventoryCanvas != null)
-            inventoryCanvas.SetActive(false);
+        if (itemContainer != null)
+            itemContainer.gameObject.SetActive(false);
     }
 
     private void Update() {
@@ -96,7 +96,8 @@ public class InventoryUI : MonoBehaviour {
             if (iconImage != null && item.icon != null) {
                 iconImage.sprite = item.icon;
             }
-            draggableObject.AddComponent<DraggableItem>();
+            DraggableItem draggableItem = draggableObject.AddComponent<DraggableItem>();
+            draggableItem.item = item;
 
             //attach click event
             Button button = draggableObject.AddComponent<Button>();
@@ -114,33 +115,6 @@ public class InventoryUI : MonoBehaviour {
 
         }
 
-
-        //foreach (var item in items) {
-        //    GameObject buttonObj = Instantiate(itemButtonPrefab, itemContainer);
-        //    spawnedButtons.Add(buttonObj);
-
-        //    // Set icon
-        //    Image iconImage = buttonObj.transform.Find("Icon")?.GetComponent<Image>();
-        //    if (iconImage != null && item.icon != null) {
-        //        iconImage.sprite = item.icon;
-        //    }
-
-        //    // Set name
-        //    TMP_Text nameText = buttonObj.transform.Find("ItemName")?.GetComponent<TMP_Text>();
-        //    if (nameText != null) {
-        //        nameText.text = item.displayName;
-        //    }
-
-        //    // Attach click event
-        //    Button button = buttonObj.GetComponent<Button>();
-        //    if (button != null) {
-        //        Item capturedItem = item; // capture for closure
-        //        button.onClick.AddListener(() => {
-        //            Debug.Log($"[InventoryUI] Clicked item: {capturedItem.displayName}");
-        //            OnItemClicked?.Invoke(capturedItem);
-        //        });
-        //    }
-        //}
     }
 
     Transform FindChildless(Transform parent) { 
