@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 857738406012864948}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.98, y: 0, z: 0}
   m_LocalScale: {x: 0.29289, y: 0.29289, z: 0.29289}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -101,7 +101,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6770099796075580186}
   - component: {fileID: 5379629948235442313}
-  m_Layer: 0
+  - component: {fileID: 2459238746662013734}
+  m_Layer: 6
   m_Name: Harold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +119,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2579077, y: 0.2579077, z: 0.2579077}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2340908051355947998}
@@ -146,3 +147,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2459238746662013734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147083302378955823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ebaabcc9cc7ac7594f68aca5782651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  m_DialogueNode: 
