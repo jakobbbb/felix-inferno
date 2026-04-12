@@ -3734,6 +3734,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dancing
       objectReference: {fileID: 0}
+    - target: {fileID: 325922015116944118, guid: c1eca102e7e0a6145bdd70986e57b11c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2734049178859570072, guid: c1eca102e7e0a6145bdd70986e57b11c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7950731147931999358, guid: c1eca102e7e0a6145bdd70986e57b11c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

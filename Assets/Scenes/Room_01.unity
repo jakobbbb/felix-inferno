@@ -1061,6 +1061,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enviroment
       objectReference: {fileID: 0}
+    - target: {fileID: 5775656754205202435, guid: 082549b6dc3f6cb90b62de285931103d, type: 3}
+      propertyPath: m_Name
+      value: door
+      objectReference: {fileID: 0}
     - target: {fileID: 7704011883782573313, guid: 082549b6dc3f6cb90b62de285931103d, type: 3}
       propertyPath: m_VoxelSize
       value: 0.083333336

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ItemCombinations : MonoBehaviour {
 
-    private string ItemCombination(string item_a, string item_b) {
+    private static string ItemCombination(string item_a, string item_b) {
         if (item_a == "edding" && item_b == "gamejamposter") {
             return "edding_gamejamposter";
         }
@@ -100,7 +100,7 @@ public class ItemCombinations : MonoBehaviour {
     }
 
   
-    public string CombineItems(string item_a, string item_b) {
+    public static string CombineItems(string item_a, string item_b) {
         var dia = ItemCombination(item_a, item_b);
         if (dia != null) {
             return dia;
