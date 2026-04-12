@@ -10,5 +10,8 @@ God: You know that gluttony is a sin, right? #line:02502cf
 <<endonce>>
 <<else>>
     Felix: Damn, I'm hungry right now. #line:0d8619a 
+    <<once>>
+    <<give_item "pizzaflyer">>
+    <<endonce>>
 <<endif>>
 ===

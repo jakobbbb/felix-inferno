@@ -6,6 +6,7 @@ Felix: Weird. #line:00e983e
 Superhero: What a beautiful day! #line:004b28d 
 Felix: Hi, I need clothes to make a rope, could you maybe give me... #line:0d86d83 
 Superhero: A part of my costume? Of course, good citizen. #line:051a51c 
+<<give_item "underwear">>
 Felix: Um, thanks? #line:07ddf7f 
 Superhero: Always happy to help! #line:040d337 
 <<endif>>
