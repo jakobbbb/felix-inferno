@@ -19,6 +19,10 @@ public class Felix : MonoBehaviour {
     }
 
     public void Update() {
+        if (DialogueManager.Instance.Runner.IsDialogueRunning) {
+            return;
+        }
+
         if (m_Actions.Click.action.WasPerformedThisFrame()) {
             SetTarget();
             m_TargetInteractable = DialogueManager.Instance.CastMouseRay();
