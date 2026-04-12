@@ -256,7 +256,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1147083302378955823, guid: bec8d3ea6888925479e07fde10e18a86, type: 3}
       propertyPath: m_Name
-      value: Harold
+      value: harold
       objectReference: {fileID: 0}
     - target: {fileID: 2459238746662013734, guid: bec8d3ea6888925479e07fde10e18a86, type: 3}
       propertyPath: m_DialogueNode
@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 290917931}
   - component: {fileID: 290917935}
   m_Layer: 6
-  m_Name: D_Person7
+  m_Name: person7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 819195086}
   - component: {fileID: 819195090}
   m_Layer: 6
-  m_Name: D_Wizard
+  m_Name: wizard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -864,7 +864,7 @@ GameObject:
   - component: {fileID: 1358661170}
   - component: {fileID: 1358661174}
   m_Layer: 6
-  m_Name: D_Person1
+  m_Name: person1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1004,7 +1004,7 @@ GameObject:
   - component: {fileID: 1399323616}
   - component: {fileID: 1399323620}
   m_Layer: 6
-  m_Name: D_Person3
+  m_Name: person3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1144,7 +1144,7 @@ GameObject:
   - component: {fileID: 1717352555}
   - component: {fileID: 1717352559}
   m_Layer: 6
-  m_Name: D_Superhero
+  m_Name: superhero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1398,7 +1398,7 @@ GameObject:
   - component: {fileID: 2088621338}
   - component: {fileID: 2088621342}
   m_Layer: 6
-  m_Name: D_Person5
+  m_Name: person5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
