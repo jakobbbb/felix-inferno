@@ -8,13 +8,13 @@
 <<elseif $room == 3>>
     Felix: A friend of yours, Bernard? #line:03f7ad3 
 <<elseif $room == 4>>
-    <<play_animation "musical">>
     <<if $musical == true>>
     Felix: Let's get out of here. #line:04967e8 
    <<elseif $prison == true>>
    Felix: I have to distract the guards so I can escape through the tunnel behind the poster. #line:07669a6 
    <<else>>
     Felix: There's something missing here. #line:024b896 
+    <<play_animation "musical">>
     <<endif>>
 <<elseif $room == 5>>
     Felix: I think there's a lesson in there somewhere. #line:0be314c 
