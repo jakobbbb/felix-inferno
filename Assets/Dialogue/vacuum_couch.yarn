@@ -1,7 +1,7 @@
-title: vacuum_couch
+﻿title: vacuum_couch
 ---
 <<if $hamsterescape == true>>
-Felix: You know what... it does make sense somehow.
+Felix: You know what... it does make sense somehow. #line:0c52dd7 
 <<set $hamsterescape = false>>
 <<else>>
 <<jump nointeraction>>

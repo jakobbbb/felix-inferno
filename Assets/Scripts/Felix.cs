@@ -15,6 +15,10 @@ public class Felix : MonoBehaviour {
 
     private Interactable m_TargetInteractable;
 
+    public void Awake() {
+        // DontDestroyOnLoad(this);
+    }
+
     public void Start() {
         Debug.Log($"Hello, I am {name}!");
     }

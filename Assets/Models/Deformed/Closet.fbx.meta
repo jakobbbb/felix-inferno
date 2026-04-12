@@ -18,6 +18,11 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Knob.001
+    second: {fileID: 2100000, guid: c73c0f17c60a3b0e8af053f16cccff1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
     second: {fileID: 2100000, guid: 2fbadab3a442a3616b6c1ff001293727, type: 2}
   materials:
     materialImportMode: 2

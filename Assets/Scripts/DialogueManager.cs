@@ -13,13 +13,14 @@ public class DialogueManager : MonoBehaviour {
     }
 
     public void Awake() {
+        var parent = transform.parent.gameObject;
         if (Instance != null && Instance != this) {
-            Destroy(gameObject);
+            Destroy(parent);
             return;
         }
 
         Instance = this;
-        DontDestroyOnLoad(transform.parent.gameObject);
+        DontDestroyOnLoad(parent);
     }
 
     public void StartDialogue(string node) {
