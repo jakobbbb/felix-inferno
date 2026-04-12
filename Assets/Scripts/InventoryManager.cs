@@ -71,9 +71,9 @@ namespace BugGame.Inventory {
             }
 
             // For simplicity, let's say we have a hardcoded merge result for "Key" + "Lock" = "UnlockedDoor"
-            if (itemAName == "" && itemBName == "")
+            if (itemAName == "Fire Extinguisher" && itemBName == "Edding")
             {
-                result = findItemInAllItems("");
+                result = findItemInAllItems("Fire edjshksfse");
                 return true;
             }
 
