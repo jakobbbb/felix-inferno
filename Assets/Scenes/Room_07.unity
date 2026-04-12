@@ -327,7 +327,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 136
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 9934c44926441760b9b3f40e858f3c65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -546,7 +546,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 109
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: aad19c703127937e9a67e6444127638f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -806,7 +806,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 195
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 52ee9557d5dfac085b8563fbbe354f88, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1024,7 +1024,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 57
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 2992560a8ab3bbc278e41b5b19169fcf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1136,7 +1136,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 124
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 5f40d57b7e158db9b83a03cabc2cdd7e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1278,7 +1278,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 122
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 61ca662321f9195e5a68968e8cbf822c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1467,6 +1467,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Raum_Rohling
       objectReference: {fileID: 0}
+    - target: {fileID: 3719113442653613742, guid: a4edb9c037a2123dab763009f1d96c6d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e724e57af04b6e816929b818790d747d, type: 2}
+    - target: {fileID: 3719113442653613742, guid: a4edb9c037a2123dab763009f1d96c6d, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e724e57af04b6e816929b818790d747d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1553,7 +1561,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 204
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 96808f8b8f126f1e6bae3f8c9f2a131c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
