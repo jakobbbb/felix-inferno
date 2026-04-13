@@ -9,6 +9,7 @@ Felix: ... #line:0615e51
 Harold: ... #line:08486b8 
 Felix: I need more clothes to make a rope to get out of here. #line:0922309 
 Harold: You can have my rope if you want to. #line:0557190 
+<<give_item "rope">>
 Felix: Oh, thank you. #line:0837942 
 <<else>>
 Felix: He seems busy. #line:041fd1a 

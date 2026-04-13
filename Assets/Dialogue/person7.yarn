@@ -6,6 +6,7 @@ Person 7: We should go on a date someday. #line:0fb6bf0
 Felix: Look at my sick tattoos! #line:0dbf244 
 Person 7: Damn, I really like them. #line:077b3f8 
 Person 7: Here, take this blanket as a token of my appreciation. #line:017c52c 
+<<give_item "blanket">>
 <<else>>
 Felix: You look comfy. #line:0c92eaa 
 Person 7: I am. #line:0a0d994 
