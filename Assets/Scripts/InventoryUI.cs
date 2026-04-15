@@ -105,6 +105,7 @@ public class InventoryUI : MonoBehaviour {
                 Item capturedItem = item; // capture for closure
                 button.onClick.AddListener(() => {
                     Debug.Log($"[InventoryUI] Clicked item: {capturedItem.displayName}");
+                    Hide();
                     DialogueManager.Instance.StartDialogue(capturedItem.dialogueReference);
                 });
             }
