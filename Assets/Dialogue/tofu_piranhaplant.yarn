@@ -1,4 +1,13 @@
 ﻿title: tofu_piranhaplant
 ---
+<<if false>>
 Felix: I should talk to the Piranha Plant about this. #line:0940c70 
+<<endif>>
+Felix: Can I offer you a tasty snack? #line:0823232 
+Tofu: I am a tasty snack. #line:04a30f2 
+Piranha Plant: Thank you so much. #line:052a0c9 
+Piranha Plant: You may take me now. #line:0b92ca6 
+<<take_item "tofu">>
+<<give_item "piranhaplant">>
+<<give_item "key">>
 ===

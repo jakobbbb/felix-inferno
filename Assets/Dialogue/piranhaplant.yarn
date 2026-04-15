@@ -1,13 +1,6 @@
 ﻿title: piranhaplant
 ---
-<<if has_item("tofu")>>
-Felix: Can I offer you a tasty snack? #line:0823232 
-Tofu: I am a tasty snack. #line:04a30f2 
-Piranha Plant: Thank you so much. #line:052a0c9 
-<<give_item "piranhaplant">>
-<<give_item "key">>
-Piranha Plant: You may take me now. #line:0b92ca6 
-<<elseif has_item("piranhaplant")>>
+<<if has_item("piranhaplant")>>
 Piranha Plant: *eating noises* #line:09f6dac 
 <<else>>
 Felix: Can I offer you a finger? #line:00fca3d 

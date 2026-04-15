@@ -147,6 +147,8 @@ public class SceneManagement : MonoBehaviour
     /// <param name="sceneName"></param>
     // Loads a scene asynchronously by name, showing the loading screen.
 
+    // public static void LoadScene(string sceneName)
+
     public void LoadScene(string sceneName)
     {
         Debug.Log($"[SceneManagement] Loading scene: {sceneName}");
