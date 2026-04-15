@@ -125,7 +125,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, 
                     string dialgoue = ItemCombinations.Instance.CombineItems(myName, item3d);
                     Debug.Log("Combination result: " + dialgoue);
 
-                    if(string.IsNullOrEmpty(dialgoue))
+                    if(!string.IsNullOrEmpty(dialgoue))
                     {
                         DialogueManager.Instance.StartDialogue(dialgoue);
                         Debug.Log("Successful combination! Triggering dialogue and destroying item.");
