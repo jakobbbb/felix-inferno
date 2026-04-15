@@ -48,6 +48,7 @@ public class Felix : MonoBehaviour {
     public void SetTarget() {
         var p = RayUtils.CastMouseRayToWorld(~0);  // mask: everything
         if (p != null) {
+            Debug.Log(p.Value.collider.gameObject.name);
             var target = RayUtils.CastRayDown(p.Value.point + Vector3.up);
             if (target != null) {
                 m_Agent.destination = target.Value;
@@ -56,8 +57,8 @@ public class Felix : MonoBehaviour {
     }
 
     public void OnDrawGizmos() {
-        Gizmos.color = Color.purple;
-        Gizmos.DrawSphere(transform.position, 0.2f);
+        // Gizmos.color = Color.purple;
+        // Gizmos.DrawSphere(transform.position, 0.2f);
 
         Gizmos.color = Color.orange;
         Gizmos.DrawSphere(m_Agent.destination, 0.2f);

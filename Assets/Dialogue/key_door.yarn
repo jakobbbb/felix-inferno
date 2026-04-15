@@ -2,6 +2,5 @@
 ---
 Felix: Obviously. #line:01ed0cd 
 <<take_item "key">>
-<<set $room to 2>>
 <<load_scene "Room_02">>
 ===

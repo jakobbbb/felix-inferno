@@ -15,6 +15,7 @@ public class RayUtils {
         );
 
         if (!is_hit) {
+            Debug.Log("Mouse ray did not hit *anything*");
             return null;
         }
 

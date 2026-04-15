@@ -904,6 +904,26 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2710080216889828309, guid: c7fe2c06d67b09f3ea2446d8ffb29645, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.613
+      objectReference: {fileID: 0}
+    - target: {fileID: 2710080216889828309, guid: c7fe2c06d67b09f3ea2446d8ffb29645, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.849
+      objectReference: {fileID: 0}
+    - target: {fileID: 4757225784643936009, guid: c7fe2c06d67b09f3ea2446d8ffb29645, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4757225784643936009, guid: c7fe2c06d67b09f3ea2446d8ffb29645, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 4757225784643936009, guid: c7fe2c06d67b09f3ea2446d8ffb29645, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6321809631807371881, guid: c7fe2c06d67b09f3ea2446d8ffb29645, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1937,7 +1957,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 311035075870854795, guid: c173c05526a854f4ab64d679f6c22289, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 382042488656970705, guid: c173c05526a854f4ab64d679f6c22289, type: 3}
       propertyPath: m_Layer
@@ -2095,6 +2115,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8722215836551393809, guid: c173c05526a854f4ab64d679f6c22289, type: 3}
+      propertyPath: m_NavMeshData
+      value: 
+      objectReference: {fileID: 23800000, guid: f33bd488ce0bd34dd9d16bbfe4705779, type: 2}
     - target: {fileID: 8793652716982389067, guid: c173c05526a854f4ab64d679f6c22289, type: 3}
       propertyPath: m_Name
       value: Environment Room2

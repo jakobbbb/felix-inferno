@@ -1,5 +1,6 @@
 ﻿title: Intro
 ---
+<<if $room < 2>>
 Felix: Ugh, my head hurts.  #line:0844827 
 Felix: I must have passed out after the Game Jam.  #line:010093e 
 Felix: Huh...  #line:0989c61 
@@ -9,4 +10,5 @@ Felix: ... #line:0653541
 Felix: Now, where would the goose girls hide a key...? #line:0699fa0 
 <<set $room to 1>>
 <<set $godcounter to 0>>
+<<endif>>
 ===

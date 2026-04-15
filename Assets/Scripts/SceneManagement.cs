@@ -42,6 +42,13 @@ public class SceneManagement : MonoBehaviour
             loadingScreen.SetActive(false);
     }
 
+    private void Start() {
+        // initialize $room when starting with a different scene
+        DialogueManager.Instance.Runner.VariableStorage.SetValue("$room",
+                int.Parse(SceneManager.GetActiveScene().name.Split("_")[1])
+        );
+    }
+
     #region Testing mode
 
     private void Update()
