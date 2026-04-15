@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: fireextinguisher2
   m_EditorClassIdentifier: Assembly-CSharp::BugGame.Inventory.Item
   displayName: Fire edjshksfse
-  dialogueReference: 
+  dialogueReference: fireextinguisher
   icon: {fileID: 21300000, guid: 40421a60a5353ae4ca98facd908f26be, type: 3}

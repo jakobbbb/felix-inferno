@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: frozenhamster
   m_EditorClassIdentifier: Assembly-CSharp::BugGame.Inventory.Item
   displayName: Frozen Hamster
-  dialogueReference: 
+  dialogueReference: frozenhamster
   icon: {fileID: 21300000, guid: 2b68e4a44843cc44196a86d6a4022776, type: 3}

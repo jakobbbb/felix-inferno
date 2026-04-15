@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: rope
   m_EditorClassIdentifier: Assembly-CSharp::BugGame.Inventory.Item
   displayName: Rope
-  dialogueReference: 
+  dialogueReference: rope
   icon: {fileID: 21300000, guid: 2a60c0ce9e460bc4c9c409b557bb4187, type: 3}

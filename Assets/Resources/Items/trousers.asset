@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: trousers
   m_EditorClassIdentifier: Assembly-CSharp::BugGame.Inventory.Item
   displayName: Trousers
-  dialogueReference: 
+  dialogueReference: nointeraction
   icon: {fileID: 21300000, guid: 7150af23c88d2db4e8de3a57d4a7a6f4, type: 3}

@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: piranhaplant
   m_EditorClassIdentifier: Assembly-CSharp::BugGame.Inventory.Item
   displayName: Piranha Plant
+  dialogueReference: piranhaplant
   icon: {fileID: 21300000, guid: f0bd6596c4a20e646b7fdfa829ef42e4, type: 3}

@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: tofu
   m_EditorClassIdentifier: Assembly-CSharp::BugGame.Inventory.Item
   displayName: Tofu
+  dialogueReference: tofu
   icon: {fileID: 21300000, guid: 3564802d2207f364596a72f6520b7f6d, type: 3}

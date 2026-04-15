@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: toadbags
   m_EditorClassIdentifier: Assembly-CSharp::BugGame.Inventory.Item
   displayName: Toad Bags
-  dialogueReference: 
+  dialogueReference: totebag
   icon: {fileID: 21300000, guid: 16c8f943539188041b8170de12c10ca1, type: 3}

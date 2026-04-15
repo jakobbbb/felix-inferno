@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: scissors
   m_EditorClassIdentifier: Assembly-CSharp::BugGame.Inventory.Item
   displayName: Scissors
-  dialogueReference: 
+  dialogueReference: scissors
   icon: {fileID: 21300000, guid: cb78a24a5075fb94eb867c8cfe17bb97, type: 3}

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: blanket
   m_EditorClassIdentifier: Assembly-CSharp::BugGame.Inventory.Item
   displayName: Blanket
-  dialogueReference: 
+  dialogueReference: nointeraction
   icon: {fileID: 21300000, guid: ddada67a296668b44aa57554b08c8fc6, type: 3}

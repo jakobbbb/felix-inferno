@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: edding
   m_EditorClassIdentifier: Assembly-CSharp::BugGame.Inventory.Item
   displayName: Edding
-  dialogueReference: 
+  dialogueReference: edding
   icon: {fileID: 21300000, guid: 524a2d5cdf3e0fd429b0fa49dccdbb01, type: 3}

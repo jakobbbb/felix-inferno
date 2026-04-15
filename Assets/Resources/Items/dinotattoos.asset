@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: dinotattoos
   m_EditorClassIdentifier: Assembly-CSharp::BugGame.Inventory.Item
   displayName: Cool Dinosaur Tattoos
+  dialogueReference: dinotattoos
   icon: {fileID: 21300000, guid: ceaf5d97c4cd73c49924c27e1a5da1bd, type: 3}

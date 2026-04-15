@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: pizza
   m_EditorClassIdentifier: Assembly-CSharp::BugGame.Inventory.Item
   displayName: Pizza Flyer
-  dialogueReference: 
+  dialogueReference: pizzaflyer
   icon: {fileID: 21300000, guid: e142b6ca1d7695144bcb4f823898dca8, type: 3}

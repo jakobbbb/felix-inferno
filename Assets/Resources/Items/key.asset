@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: key
   m_EditorClassIdentifier: Assembly-CSharp::BugGame.Inventory.Item
   displayName: Key
-  dialogueReference: 
+  dialogueReference: key
   icon: {fileID: 21300000, guid: fbf79df0b28338e4fb0697df921961f9, type: 3}

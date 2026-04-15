@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: gamejamposter
   m_EditorClassIdentifier: Assembly-CSharp::BugGame.Inventory.Item
   displayName: Jam Poster
-  dialogueReference: 
+  dialogueReference: gamejamposter
   icon: {fileID: 21300000, guid: 97d35e6876c137b4193394f32f51d6b6, type: 3}
