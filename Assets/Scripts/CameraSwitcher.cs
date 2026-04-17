@@ -21,6 +21,7 @@ public class CameraSwitcher : MonoBehaviour
 
     private void OnEnable()
     {
+        Debug.Log($"init {name}");
         buttonPreviousCam.onClick.AddListener(() => PreviousCamera());
         buttonNextCam.onClick.AddListener(() => NextCamera());
     }
